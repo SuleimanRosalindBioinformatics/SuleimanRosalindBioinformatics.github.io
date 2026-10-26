@@ -1,0 +1,93 @@
+[
+  {
+    "title": "Sequence Alignment & Dynamic Programming",
+    "icon": "\u26a1",
+    "description": "Global (Needleman-Wunsch), Local (Smith-Waterman), Affine Gap Penalties, Hirschberg Linear Space, Edit Distance, and Multiple Sequence Alignment.",
+    "problem_count": 53,
+    "key": "sequence-alignment"
+  },
+  {
+    "title": "Genome Assembly & Graph Algorithms",
+    "icon": "\ud83e\uddec",
+    "description": "De Bruijn graphs, Eulerian paths & cycles, Overlap graphs, k-mer composition, and paired-read de novo genome assembly.",
+    "problem_count": 23,
+    "key": "genome-assembly"
+  },
+  {
+    "title": "Regulatory Motif Discovery",
+    "icon": "\ud83c\udfaf",
+    "description": "Median string search, Greedy motif search with pseudocounts, Randomized motif search, and Gibbs sampling algorithms.",
+    "problem_count": 23,
+    "key": "motif-finding"
+  },
+  {
+    "title": "Phylogenetic Tree Reconstruction",
+    "icon": "\ud83c\udf33",
+    "description": "Additive phylogeny, UPGMA, Neighbor-Joining, Small & Large Parsimony, Newick format parsing, and tree distances.",
+    "problem_count": 27,
+    "key": "phylogenetics"
+  },
+  {
+    "title": "Hidden Markov Models & Profile HMMs",
+    "icon": "\ud83c\udfb2",
+    "description": "Viterbi decoding algorithm, Forward-Backward probability evaluation, Baum-Welch parameter learning, and Profile HMMs.",
+    "problem_count": 11,
+    "key": "hidden-markov-models"
+  },
+  {
+    "title": "String Indexing & FM-Index",
+    "icon": "\ud83d\udd0d",
+    "description": "Prefix Tries, Suffix Trees, Suffix Arrays, Burrows-Wheeler Transform (BWT), and Last-First (LF) mapping search.",
+    "problem_count": 17,
+    "key": "string-indexing-and-pattern-matching"
+  },
+  {
+    "title": "Peptide Sequencing & Mass Spectrometry",
+    "icon": "\ud83e\uddea",
+    "description": "De novo mass spectrometry sequencing, cyclopeptide scoring, spectral convolution, and spectral dictionary generation.",
+    "problem_count": 26,
+    "key": "peptide-sequencing-and-spectrometry"
+  },
+  {
+    "title": "Genome Rearrangements & Synteny",
+    "icon": "\ud83d\udd04",
+    "description": "Breakpoint graphs, 2-break genome operations, reversal distance estimation, and synteny block sorting.",
+    "problem_count": 12,
+    "key": "genome-rearrangements"
+  },
+  {
+    "title": "Clustering & Unsupervised Learning",
+    "icon": "\ud83d\udcca",
+    "description": "Lloyd's k-means clustering, Farthest First Traversal, Soft k-means Expectation-Maximization, and Hierarchical clustering.",
+    "problem_count": 5,
+    "key": "clustering-algorithms"
+  },
+  {
+    "title": "Population Genetics & Combinatorics",
+    "icon": "\ud83d\udcc8",
+    "description": "Mendelian inheritance, Wright-Fisher genetic drift, RNA secondary structure Catalan numbers, and allele frequencies.",
+    "problem_count": 28,
+    "key": "population-genetics-and-combinatorics"
+  },
+  {
+    "title": "Classical Graph & Sorting Algorithms",
+    "icon": "\ud83d\udd78\ufe0f",
+    "description": "Dijkstra, Bellman-Ford, 2-Satisfiability (2-SAT), Strongly Connected Components, Topological sort, Quick/Merge sort.",
+    "problem_count": 37,
+    "key": "graph-and-sorting-algorithms"
+  },
+  {
+    "title": "Bioinformatics Armory & Tools",
+    "icon": "\ud83d\udee1\ufe0f",
+    "description": "Production bioinformatic workflows using Biopython, FASTQ quality score filtration, GenBank API querying, and BLAST.",
+    "problem_count": 16,
+    "key": "bioinformatics-armory"
+  },
+  {
+    "title": "Python Village Foundations",
+    "icon": "\ud83d\udc0d",
+    "description": "Foundational Python syntax, string slicing, hash map counters, file I/O, and algorithmic building blocks.",
+    "problem_count": 6,
+    "key": "python-village-and-utilities"
+  }
+]

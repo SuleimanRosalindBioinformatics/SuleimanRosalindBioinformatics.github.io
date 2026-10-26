@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SuleimanRosalindBioinformatics | Algorithmic Foundations of Computational Biology</title>
+  
+  <meta name="description" content="Academic-grade solutions to all 284 published computational biology problems on the Rosalind platform — dynamic programming, De Bruijn genome assembly, Baum-Welch HMMs, and mass spectrometry." />
+  <meta name="keywords" content="Rosalind, Bioinformatics, Computational Biology, Algorithms, Dynamic Programming, Sequence Alignment, Genome Assembly, Hidden Markov Models, Phylogenetics, Python, Suleiman Hajizadeh" />
+  <meta name="author" content="Suleiman Hajizadeh" />
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="SuleimanRosalindBioinformatics | 284/284 Solved Problems" />
+  <meta property="og:description" content="Academic-grade repository and interactive intelligence hub for all 284 Rosalind computational biology challenges." />
+  <meta property="og:url" content="https://suleimanrosalindbioinformatics.github.io/" />
+  <meta property="og:image" content="assets/logo.svg" />
+
+  <!-- Icons -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="icon" type="image/png" sizes="64x64" href="favicon.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="manifest" href="manifest.json" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Ambient Atmosphere -->
+  <div class="bg-atmosphere" aria-hidden="true">
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+    <div class="glow-orb orb-3"></div>
+  </div>
+
+  <!-- Header & Navigation -->
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <a href="#hero" class="brand-link" aria-label="SuleimanRosalindBioinformatics Home">
+        <img src="assets/logo-icon.svg" alt="SuleimanRosalindBioinformatics Logo" class="brand-logo-img" />
+        <span>Suleiman<span class="brand-accent">Rosalind</span>Bioinformatics</span>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#overview" class="nav-link">Overview</a></li>
+          <li><a href="#explorer" class="nav-link">Problems Explorer</a></li>
+          <li><a href="#studio" class="nav-link">Live Studio</a></li>
+          <li><a href="#curriculum" class="nav-link">Curriculum</a></li>
+          <li><a href="#domains" class="nav-link">Domains</a></li>
+          <li><a href="#ecosystem" class="nav-link">Ecosystem</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="btn-icon" aria-label="Toggle Theme" title="Toggle Dark/Light Mode">
+          <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+          </svg>
+        </button>
+        <a href="https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics" target="_blank" rel="noopener noreferrer" class="btn-secondary" style="padding: 0.5rem 1rem; font-size: 0.85rem;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+          </svg>
+          Repo
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section id="hero" class="hero-section">
+      <div class="container">
+        <div class="hero-badge">
+          <span>🧬</span>
+          <span>100% Solved — 284 / 284 Computational Biology Problems</span>
+        </div>
+
+        <h1 class="hero-title">
+          Algorithmic Foundations of<br>
+          <span class="hero-title-gradient">Computational Biology</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          An academic-grade intelligence hub and master catalog of optimal implementations for all 284 published problems on the <strong>Rosalind</strong> platform. Spanning dynamic programming alignments, Eulerian genome assembly, Baum-Welch HMMs, phylogenetic reconstructions, and mass spectrometry de novo sequencing.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#explorer" class="btn-primary">
+            <span>Explore 284 Problems</span>
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+            </svg>
+          </a>
+          <a href="#studio" class="btn-secondary">
+            <span>Live Bio-Studio</span>
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </a>
+          <a href="https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics" target="_blank" rel="noopener noreferrer" class="btn-secondary">
+            <span>GitHub Core Repository</span>
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
+          </a>
+        </div>
+
+        <!-- Stats Grid -->
+        <div id="overview" class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-number">284</div>
+            <div class="stat-label">Total Solved (100%)</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">124</div>
+            <div class="stat-label">Textbook Track (BA)</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">106</div>
+            <div class="stat-label">Bioinformatics Stronghold</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">34</div>
+            <div class="stat-label">Algorithmic Heights</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">16</div>
+            <div class="stat-label">Bioinformatics Armory</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">6</div>
+            <div class="stat-label">Python Village</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Explorer Section -->
+    <section id="explorer" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Interactive Catalog</span>
+          <h2 class="section-title">Master Problems Explorer</h2>
+          <p class="section-subtitle">
+            Filter, search, and inspect all 284 solved computational biology problems with direct links to executable python algorithms and Rosalind IDs.
+          </p>
+        </div>
+
+        <!-- Explorer Controls -->
+        <div class="explorer-controls">
+          <div class="search-box-wrapper">
+            <svg class="search-icon" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+            <input type="text" id="search-filter" class="search-input" placeholder="Search by ID (e.g., BA1A, GC, FIB, LCS), title, or algorithm domain..." />
+          </div>
+
+          <div class="filter-row">
+            <div class="filter-group">
+              <button class="filter-btn track-btn active" data-track="all">All Tracks</button>
+              <button class="filter-btn track-btn" data-track="Textbook Track (BA)">Textbook (BA)</button>
+              <button class="filter-btn track-btn" data-track="Bioinformatics Stronghold">Stronghold</button>
+              <button class="filter-btn track-btn" data-track="Algorithmic Heights">Heights</button>
+              <button class="filter-btn track-btn" data-track="Bioinformatics Armory">Armory</button>
+              <button class="filter-btn track-btn" data-track="Python Village">Village</button>
+            </div>
+
+            <div class="filter-group">
+              <button class="filter-btn tier-btn active" data-tier="all">All Tiers</button>
+              <button class="filter-btn tier-btn" data-tier="Beginner">🟢 Beginner</button>
+              <button class="filter-btn tier-btn" data-tier="Intermediate">🟡 Intermediate</button>
+              <button class="filter-btn tier-btn" data-tier="Advanced">🔴 Advanced</button>
+            </div>
+
+            <div class="filter-group">
+              <select id="domain-select" class="filter-select">
+                <option value="all">All Domains (13 Categories)</option>
+                <option value="sequence-alignment">Sequence Alignment & DP</option>
+                <option value="genome-assembly">Genome Assembly & De Bruijn</option>
+                <option value="motif-finding">Motif Discovery</option>
+                <option value="phylogenetics">Phylogenetics & Trees</option>
+                <option value="hidden-markov-models">Hidden Markov Models</option>
+                <option value="string-indexing-and-pattern-matching">String Indexing & FM-Index</option>
+                <option value="peptide-sequencing-and-spectrometry">Mass Spectrometry & Peptides</option>
+                <option value="genome-rearrangements">Genome Rearrangements</option>
+                <option value="clustering-algorithms">Clustering & EM</option>
+                <option value="population-genetics-and-combinatorics">Population Genetics</option>
+                <option value="graph-and-sorting-algorithms">Graph & Sorting Algorithms</option>
+                <option value="bioinformatics-armory">Bioinformatics Armory</option>
+                <option value="python-village-and-utilities">Python Village</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="results-meta">
+          <span id="results-count">Loading problem database...</span>
+        </div>
+
+        <!-- Problems Grid Container -->
+        <div id="problems-grid" class="problems-grid">
+          <!-- Populated by app.js -->
+        </div>
+
+        <div id="load-more-wrapper" class="load-more-wrapper" style="display: none;">
+          <button id="load-more-btn" class="btn-secondary">Load More Problems &darr;</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Live Bio-Studio Section -->
+    <section id="studio" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Interactive Laboratory</span>
+          <h2 class="section-title">Live Bio-Algorithms Studio</h2>
+          <p class="section-subtitle">
+            Experience Rosalind algorithmic transformations live in your browser — zero installation required.
+          </p>
+        </div>
+
+        <div class="studio-card">
+          <div class="studio-tabs">
+            <button class="studio-tab-btn active" data-tab="tab-dogma">🧬 Central Dogma</button>
+            <button class="studio-tab-btn" data-tab="tab-skew">📈 GC Skew & OriC</button>
+            <button class="studio-tab-btn" data-tab="tab-ham">⚡ Hamming & Ti/Tv</button>
+            <button class="studio-tab-btn" data-tab="tab-align">🎯 Global DP Alignment</button>
+            <button class="studio-tab-btn" data-tab="tab-pal">🔍 Restriction Palindromes</button>
+          </div>
+
+          <!-- Tab 1: Central Dogma -->
+          <div id="tab-dogma" class="studio-pane active">
+            <label class="input-label" for="dogma-input">DNA Nucleotide Sequence (A, C, G, T):</label>
+            <textarea id="dogma-input" class="studio-textarea" placeholder="Paste DNA sequence...">ATGGCCATGGCGCCCAGAACTGAGATCAATAGTACCCGTATTAACGGGTGA</textarea>
+            <div class="studio-btn-row">
+              <button id="btn-run-dogma" class="btn-primary">Execute Transformation</button>
+            </div>
+            <div class="output-panel">
+              <div class="output-title">Transformation Results</div>
+              <div id="dogma-output">Click "Execute Transformation" to transcribe, reverse complement, and translate.</div>
+            </div>
+          </div>
+
+          <!-- Tab 2: GC Skew -->
+          <div id="tab-skew" class="studio-pane">
+            <label class="input-label" for="skew-input">Bacterial Genome Fragment (for OriC origin of replication finding):</label>
+            <textarea id="skew-input" class="studio-textarea" placeholder="Paste genomic sequence...">CATGGGTATGATTGAACGTCTGTACGTTAAGCAATCGTTTCCGAAACGTCAGTCGACTGTAACCGTAAGCT</textarea>
+            <div class="studio-btn-row">
+              <button id="btn-run-skew" class="btn-primary">Compute GC Skew Curve</button>
+            </div>
+            <div class="output-panel">
+              <div class="output-title">GC Skew Profile (G - C) / (G + C)</div>
+              <div id="skew-output">Click "Compute GC Skew Curve" to render replication origin trajectory.</div>
+            </div>
+          </div>
+
+          <!-- Tab 3: Hamming -->
+          <div id="tab-ham" class="studio-pane">
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin-bottom:1rem;">
+              <div>
+                <label class="input-label" for="ham-s1">Sequence 1:</label>
+                <textarea id="ham-s1" class="studio-textarea" style="min-height:75px;">GAGCCTACTAACGGGAT</textarea>
+              </div>
+              <div>
+                <label class="input-label" for="ham-s2">Sequence 2:</label>
+                <textarea id="ham-s2" class="studio-textarea" style="min-height:75px;">CATCGTAATGACGGCCT</textarea>
+              </div>
+            </div>
+            <div class="studio-btn-row">
+              <button id="btn-run-ham" class="btn-primary">Calculate Hamming Distance & Transitions</button>
+            </div>
+            <div class="output-panel">
+              <div class="output-title">Point Mutation Breakdown</div>
+              <div id="ham-output">Click button to compute point mutations, transitions, transversions, and Ti/Tv ratio.</div>
+            </div>
+          </div>
+
+          <!-- Tab 4: Dynamic Programming Alignment -->
+          <div id="tab-align" class="studio-pane">
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin-bottom:1rem;">
+              <div>
+                <label class="input-label" for="align-s1">Sequence 1 (&le; 25 bp):</label>
+                <input id="align-s1" class="search-input" value="PLEASANTLY" />
+              </div>
+              <div>
+                <label class="input-label" for="align-s2">Sequence 2 (&le; 25 bp):</label>
+                <input id="align-s2" class="search-input" value="MEANLY" />
+              </div>
+            </div>
+            <div class="studio-btn-row">
+              <button id="btn-run-align" class="btn-primary">Compute Needleman-Wunsch Alignment</button>
+            </div>
+            <div class="output-panel">
+              <div class="output-title">Alignment & Traceback Matrix</div>
+              <div id="align-output">Click button to execute global dynamic programming alignment.</div>
+            </div>
+          </div>
+
+          <!-- Tab 5: Palindrome -->
+          <div id="tab-pal" class="studio-pane">
+            <label class="input-label" for="pal-input">DNA Sequence for Restriction Site Search:</label>
+            <textarea id="pal-input" class="studio-textarea" placeholder="Paste DNA sequence...">TCAATGCATGCGGGTCTATATGCAT</textarea>
+            <div class="studio-btn-row">
+              <button id="btn-run-pal" class="btn-primary">Scan Reverse Palindromes (Len 4-12)</button>
+            </div>
+            <div class="output-panel">
+              <div class="output-title">Identified Restriction Sites</div>
+              <div id="pal-output">Click button to locate palindromic restriction endonuclease recognition sites.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Curriculum Section -->
+    <section id="curriculum" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Learning Pathways</span>
+          <h2 class="section-title">3-Tier Curriculum Roadmap</h2>
+          <p class="section-subtitle">
+            A pedagogically structured roadmap stratifying all 284 computational biology problems by difficulty and prerequisite knowledge.
+          </p>
+        </div>
+
+        <div class="roadmap-grid">
+          <div class="roadmap-card">
+            <span class="roadmap-tier-tag tier-Beginner">🟢 Beginner Tier • 51 Problems</span>
+            <h3>Foundational Genomics</h3>
+            <p class="roadmap-desc">
+              Mastery of central dogma transformations, string parsing, frequency counting, Mendelian probability, and Python standard data structures.
+            </p>
+            <ul class="roadmap-list">
+              <li>DNA Transcription, Reverse Complement, GC Skew</li>
+              <li>Mendelian Inheritance & Expected Offspring</li>
+              <li>Point Mutations & Hamming Distance</li>
+              <li>Rosalind Armory FASTQ Quality Filtering</li>
+              <li>Python Village syntax & file manipulation</li>
+            </ul>
+          </div>
+
+          <div class="roadmap-card">
+            <span class="roadmap-tier-tag tier-Intermediate">🟡 Intermediate Tier • 196 Problems</span>
+            <h3>Core Algorithms & DP</h3>
+            <p class="roadmap-desc">
+              Dynamic programming alignments, Eulerian graph de novo genome assembly, motif finding heuristics, and distance-based phylogenetics.
+            </p>
+            <ul class="roadmap-list">
+              <li>Needleman-Wunsch, Smith-Waterman & Affine Gaps</li>
+              <li>Hirschberg Linear-Space Alignment ($O(|v|+|w|)$)</li>
+              <li>De Bruijn Graphs & Eulerian Walk Assembly</li>
+              <li>Median String, Gibbs Sampler & Randomized Motif Search</li>
+              <li>Additive Phylogeny, UPGMA & Neighbor-Joining</li>
+            </ul>
+          </div>
+
+          <div class="roadmap-card">
+            <span class="roadmap-tier-tag tier-Advanced">🔴 Advanced Tier • 37 Problems</span>
+            <h3>Complex Stochastic Modeling</h3>
+            <p class="roadmap-desc">
+              Baum-Welch Expectation-Maximization for HMMs, mass spectrometry spectral dictionaries, 2-break genome synteny distances, and suffix trees.
+            </p>
+            <ul class="roadmap-list">
+              <li>Baum-Welch Parameter Estimation & Profile HMMs</li>
+              <li>De Novo Peptide Sequencing from Mass Spectra</li>
+              <li>Genome Rearrangements (2-Break & Reversal Distances)</li>
+              <li>Suffix Trees & Burrows-Wheeler Transform Matching</li>
+              <li>Catalan Numbers & RNA Secondary Structures</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Domains Section -->
+    <section id="domains" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Theoretical Foundations</span>
+          <h2 class="section-title">13 Algorithmic Domains</h2>
+          <p class="section-subtitle">
+            Rigorous mathematical modeling applied across genomics, transcriptomics, phylogenetics, and biophysics.
+          </p>
+        </div>
+
+        <div class="roadmap-grid">
+          <div class="stat-card" style="text-align:left;">
+            <div style="font-size:1.75rem; margin-bottom:0.5rem;">⚡</div>
+            <h4 style="font-size:1.15rem; margin-bottom:0.5rem;">Sequence Alignment</h4>
+            <p style="color:var(--text-muted); font-size:0.875rem;">
+              Dynamic programming recurrences, BLOSUM62/PAM250 scoring matrices, Hirschberg divide-and-conquer linear space, and affine gap models.
+            </p>
+          </div>
+
+          <div class="stat-card" style="text-align:left;">
+            <div style="font-size:1.75rem; margin-bottom:0.5rem;">🧬</div>
+            <h4 style="font-size:1.15rem; margin-bottom:0.5rem;">Genome Assembly</h4>
+            <p style="color:var(--text-muted); font-size:0.875rem;">
+              Eulerian cycles and paths over De Bruijn graphs ($O(E)$), k-mer spectrums, and paired-read de novo reconstructions.
+            </p>
+          </div>
+
+          <div class="stat-card" style="text-align:left;">
+            <div style="font-size:1.75rem; margin-bottom:0.5rem;">🎲</div>
+            <h4 style="font-size:1.15rem; margin-bottom:0.5rem;">Hidden Markov Models</h4>
+            <p style="color:var(--text-muted); font-size:0.875rem;">
+              Viterbi dynamic programming decoding, Forward-Backward emission calculations, Baum-Welch EM parameter training, and Profile HMMs.
+            </p>
+          </div>
+
+          <div class="stat-card" style="text-align:left;">
+            <div style="font-size:1.75rem; margin-bottom:0.5rem;">🌳</div>
+            <h4 style="font-size:1.15rem; margin-bottom:0.5rem;">Phylogenetics</h4>
+            <p style="color:var(--text-muted); font-size:0.875rem;">
+              Distance-based phylogeny (UPGMA, Neighbor-Joining), Small Parsimony (Fitch/Sankoff), Large Parsimony tree space search, and Newick syntax.
+            </p>
+          </div>
+
+          <div class="stat-card" style="text-align:left;">
+            <div style="font-size:1.75rem; margin-bottom:0.5rem;">🧪</div>
+            <h4 style="font-size:1.15rem; margin-bottom:0.5rem;">Mass Spectrometry</h4>
+            <p style="color:var(--text-muted); font-size:0.875rem;">
+              Cyclopeptide scoring, spectral convolution, PSM dictionary generation, and de novo peptide identification from MS/MS spectra.
+            </p>
+          </div>
+
+          <div class="stat-card" style="text-align:left;">
+            <div style="font-size:1.75rem; margin-bottom:0.5rem;">🔄</div>
+            <h4 style="font-size:1.15rem; margin-bottom:0.5rem;">Genome Rearrangements</h4>
+            <p style="color:var(--text-muted); font-size:0.875rem;">
+              Synteny block breakpoint graphs, 2-break genome operations ($d(P, Q) = n - c$), and reversal distance algorithms.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ecosystem Section -->
+    <section id="ecosystem" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Connected Ecosystem</span>
+          <h2 class="section-title">Organization Repositories</h2>
+          <p class="section-subtitle">
+            Part of the SuleimanRosalindBioinformatics research and educational portfolio.
+          </p>
+        </div>
+
+        <table class="ecosystem-table">
+          <thead>
+            <tr>
+              <th>Repository</th>
+              <th>Description</th>
+              <th>Role</th>
+              <th>Direct Link</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>SuleimanRosalindBioinformatics</strong></td>
+              <td>284 Solved problems, python implementations, datasets, and complete wiki knowledge base</td>
+              <td><span class="tag-pill" style="color:var(--cyan-primary);">Backend Core & Data</span></td>
+              <td><a href="https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics" target="_blank" rel="noopener noreferrer" style="color:var(--cyan-primary); font-weight:600;">View Repo &rarr;</a></td>
+            </tr>
+            <tr>
+              <td><strong>SuleimanRosalindBioinformatics.github.io</strong></td>
+              <td>Interactive web application, master problem explorer, and live bio-algorithms studio</td>
+              <td><span class="tag-pill" style="color:var(--green-primary);">Frontend Web Portal</span></td>
+              <td><a href="https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics.github.io" target="_blank" rel="noopener noreferrer" style="color:var(--green-primary); font-weight:600;">View Repo &rarr;</a></td>
+            </tr>
+            <tr>
+              <td><strong>GitHub Organization</strong></td>
+              <td>Central administrative hub for Rosalind computational biology projects</td>
+              <td><span class="tag-pill">Organization Hub</span></td>
+              <td><a href="https://github.com/SuleimanRosalindBioinformatics" target="_blank" rel="noopener noreferrer" style="color:var(--purple-primary); font-weight:600;">View Org &rarr;</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <!-- Problem Inspection Modal -->
+  <div id="problem-modal" class="modal-overlay">
+    <div class="modal-content">
+      <button id="modal-close" class="modal-close-btn" aria-label="Close modal">&times;</button>
+      <div id="modal-body">
+        <!-- Injected by app.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div style="display:flex; align-items:center; gap:0.75rem; margin-bottom:0.5rem;">
+            <img src="assets/logo-icon.svg" alt="Logo" style="width:32px; height:32px; border-radius:6px;" />
+            <span style="font-weight:700; font-size:1.15rem;">SuleimanRosalindBioinformatics</span>
+          </div>
+          <p>
+            An academic-grade, end-to-end implementation of all 284 computational biology problems on the Rosalind platform. Exploring the algorithmic frontier where biology meets computer science.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Repositories</h4>
+          <ul>
+            <li><a href="https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics" target="_blank" rel="noopener noreferrer">Backend Solutions Repo</a></li>
+            <li><a href="https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics.github.io" target="_blank" rel="noopener noreferrer">Frontend Website Repo</a></li>
+            <li><a href="https://github.com/SuleimanRosalindBioinformatics" target="_blank" rel="noopener noreferrer">GitHub Organization</a></li>
+            <li><a href="http://rosalind.info/" target="_blank" rel="noopener noreferrer">Rosalind Platform</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Author & Portfolio</h4>
+          <ul>
+            <li><a href="https://github.com/SuleimanHajizadeh" target="_blank" rel="noopener noreferrer">Suleiman Hajizadeh GitHub</a></li>
+            <li><a href="https://suleimanbioinformatics.github.io/" target="_blank" rel="noopener noreferrer">SuleimanBioinformatics Hub</a></li>
+            <li><a href="https://suleimanbiopythonpractised.github.io/" target="_blank" rel="noopener noreferrer">Biopython Practised Portal</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 <strong>Suleiman Hajizadeh</strong> • Released under the MIT License • Built for Rosalind Bioinformatics</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/bio-studio.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

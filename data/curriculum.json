@@ -1,0 +1,17 @@
+{
+  "total_solved": 284,
+  "total_problems": 284,
+  "completion_rate": "100%",
+  "tier_stats": {
+    "Beginner": 51,
+    "Intermediate": 196,
+    "Advanced": 37
+  },
+  "track_stats": {
+    "Textbook Track (BA)": 124,
+    "Bioinformatics Stronghold": 106,
+    "Algorithmic Heights": 32,
+    "Bioinformatics Armory": 16,
+    "Python Village": 6
+  }
+}

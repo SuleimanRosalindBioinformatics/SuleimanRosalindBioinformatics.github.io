@@ -1,0 +1,2842 @@
+[
+  {
+    "id": "BA7G",
+    "title": "Adapt SmallParsimony to Unrooted Trees",
+    "track": "Textbook Track (BA)",
+    "domain": "phylogenetics",
+    "dir_name": "Adapt SmallParsimony to Unrooted Trees",
+    "wiki_slug": "adapt-smallparsimony-to-unrooted-trees",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Adapt%20SmallParsimony%20to%20Unrooted%20Trees"
+  },
+  {
+    "id": "BA5J",
+    "title": "Align Two Strings Using Affine Gap Penalties",
+    "track": "Textbook Track (BA)",
+    "domain": "sequence-alignment",
+    "dir_name": "Align Two Strings Using Affine Gap Penalties",
+    "wiki_slug": "align-two-strings-using-affine-gap-penalties",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Align%20Two%20Strings%20Using%20Affine%20Gap%20Penalties"
+  },
+  {
+    "id": "BA5L",
+    "title": "Align Two Strings Using Linear Space",
+    "track": "Textbook Track (BA)",
+    "domain": "sequence-alignment",
+    "dir_name": "Align Two Strings Using Linear Space",
+    "wiki_slug": "align-two-strings-using-linear-space",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Align%20Two%20Strings%20Using%20Linear%20Space"
+  },
+  {
+    "id": "BA7A",
+    "title": "Compute Distances Between Leaves",
+    "track": "Textbook Track (BA)",
+    "domain": "phylogenetics",
+    "dir_name": "Compute Distances Between Leaves",
+    "wiki_slug": "compute-distances-between-leaves",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Compute%20Distances%20Between%20Leaves"
+  },
+  {
+    "id": "BA7B",
+    "title": "Compute Limb Lengths in a Tree",
+    "track": "Textbook Track (BA)",
+    "domain": "phylogenetics",
+    "dir_name": "Compute Limb Lengths in a Tree",
+    "wiki_slug": "compute-limb-lengths-in-a-tree",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Compute%20Limb%20Lengths%20in%20a%20Tree"
+  },
+  {
+    "id": "BA6C",
+    "title": "Compute the 2-Break Distance Between a Pair of Genomes",
+    "track": "Textbook Track (BA)",
+    "domain": "genome-rearrangements",
+    "dir_name": "Compute the 2-Break Distance Between a Pair of Genomes",
+    "wiki_slug": "compute-the-2-break-distance-between-a-pair-of-genomes",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Compute%20the%202-Break%20Distance%20Between%20a%20Pair%20of%20Genomes"
+  },
+  {
+    "id": "BA5G",
+    "title": "Compute the Edit Distance Between Two Strings",
+    "track": "Textbook Track (BA)",
+    "domain": "sequence-alignment",
+    "dir_name": "Compute the Edit Distance Between Two Strings",
+    "wiki_slug": "compute-the-edit-distance-between-two-strings",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Compute%20the%20Edit%20Distance%20Between%20Two%20Strings"
+  },
+  {
+    "id": "BA1G",
+    "title": "Compute the Hamming Distance Between Two Strings",
+    "track": "Textbook Track (BA)",
+    "domain": "sequence-alignment",
+    "dir_name": "Compute the Hamming Distance Between Two Strings",
+    "wiki_slug": "compute-the-hamming-distance-between-two-strings",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Compute%20the%20Hamming%20Distance%20Between%20Two%20Strings"
+  },
+  {
+    "id": "BA6B",
+    "title": "Compute the Number of Breakpoints in a Permutation",
+    "track": "Textbook Track (BA)",
+    "domain": "genome-rearrangements",
+    "dir_name": "Compute the Number of Breakpoints in a Permutation",
+    "wiki_slug": "compute-the-number-of-breakpoints-in-a-permutation",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Compute%20the%20Number%20of%20Breakpoints%20in%20a%20Permutation"
+  },
+  {
+    "id": "BA4D",
+    "title": "Compute the Number of Peptides of Given Total Mass",
+    "track": "Textbook Track (BA)",
+    "domain": "peptide-sequencing-and-spectrometry",
+    "dir_name": "Compute the Number of Peptides of Given Total Mass",
+    "wiki_slug": "compute-the-number-of-peptides-of-given-total-mass",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Compute%20the%20Number%20of%20Peptides%20of%20Given%20Total%20Mass"
+  },
+  {
+    "id": "BA1A",
+    "title": "Compute the Number of Times a Pattern Appears in a Text",
+    "track": "Textbook Track (BA)",
+    "domain": "sequence-alignment",
+    "dir_name": "Compute the Number of Times a Pattern Appears in a Text",
+    "wiki_slug": "compute-the-number-of-times-a-pattern-appears-in-a-text",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Compute%20the%20Number%20of%20Times%20a%20Pattern%20Appears%20in%20a%20Text"
+  },
+  {
+    "id": "BA10A",
+    "title": "Compute the Probability of a Hidden Path",
+    "track": "Textbook Track (BA)",
+    "domain": "hidden-markov-models",
+    "dir_name": "Compute the Probability of a Hidden Path",
+    "wiki_slug": "compute-the-probability-of-a-hidden-path",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Compute%20the%20Probability%20of%20a%20Hidden%20Path"
+  },
+  {
+    "id": "BA11I",
+    "title": "Compute the Probability of a Spectral Dictionary",
+    "track": "Textbook Track (BA)",
+    "domain": "peptide-sequencing-and-spectrometry",
+    "dir_name": "Compute the Probability of a Spectral Dictionary",
+    "wiki_slug": "compute-the-probability-of-a-spectral-dictionary",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Compute%20the%20Probability%20of%20a%20Spectral%20Dictionary"
+  },
+  {
+    "id": "BA10D",
+    "title": "Compute the Probability of a String Emitted by an HMM",
+    "track": "Textbook Track (BA)",
+    "domain": "hidden-markov-models",
+    "dir_name": "Compute the Probability of a String Emitted by an HMM",
+    "wiki_slug": "compute-the-probability-of-a-string-emitted-by-an-hmm",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Compute%20the%20Probability%20of%20a%20String%20Emitted%20by%20an%20HMM"
+  },
+  {
+    "id": "BA10B",
+    "title": "Compute the Probability of an Outcome Given a Hidden Path",
+    "track": "Textbook Track (BA)",
+    "domain": "hidden-markov-models",
+    "dir_name": "Compute the Probability of an Outcome Given a Hidden Path",
+    "wiki_slug": "compute-the-probability-of-an-outcome-given-a-hidden-path",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Compute%20the%20Probability%20of%20an%20Outcome%20Given%20a%20Hidden%20Path"
+  },
+  {
+    "id": "BA4F",
+    "title": "Compute the Score of a Cyclic Peptide Against a Spectrum",
+    "track": "Textbook Track (BA)",
+    "domain": "peptide-sequencing-and-spectrometry",
+    "dir_name": "Compute the Score of a Cyclic Peptide Against a Spectrum",
+    "wiki_slug": "compute-the-score-of-a-cyclic-peptide-against-a-spectrum",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Compute%20the%20Score%20of%20a%20Cyclic%20Peptide%20Against%20a%20Spectrum"
+  },
+  {
+    "id": "BA4K",
+    "title": "Compute the Score of a Linear Peptide",
+    "track": "Textbook Track (BA)",
+    "domain": "peptide-sequencing-and-spectrometry",
+    "dir_name": "Compute the Score of a Linear Peptide",
+    "wiki_slug": "compute-the-score-of-a-linear-peptide",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Compute%20the%20Score%20of%20a%20Linear%20Peptide"
+  },
+  {
+    "id": "BA11H",
+    "title": "Compute the Size of a Spectral Dictionary",
+    "track": "Textbook Track (BA)",
+    "domain": "peptide-sequencing-and-spectrometry",
+    "dir_name": "Compute the Size of a Spectral Dictionary",
+    "wiki_slug": "compute-the-size-of-a-spectral-dictionary",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Compute%20the%20Size%20of%20a%20Spectral%20Dictionary"
+  },
+  {
+    "id": "BA8B",
+    "title": "Compute the Squared Error Distortion",
+    "track": "Textbook Track (BA)",
+    "domain": "clustering-algorithms",
+    "dir_name": "Compute the Squared Error Distortion",
+    "wiki_slug": "compute-the-squared-error-distortion",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Compute%20the%20Squared%20Error%20Distortion"
+  },
+  {
+    "id": "BA10E",
+    "title": "Construct a Profile HMM",
+    "track": "Textbook Track (BA)",
+    "domain": "hidden-markov-models",
+    "dir_name": "Construct a Profile HMM",
+    "wiki_slug": "construct-a-profile-hmm",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Construct%20a%20Profile%20HMM"
+  },
+  {
+    "id": "BA10F",
+    "title": "Construct a Profile HMM with Pseudocounts",
+    "track": "Textbook Track (BA)",
+    "domain": "hidden-markov-models",
+    "dir_name": "Construct a Profile HMM with Pseudocounts",
+    "wiki_slug": "construct-a-profile-hmm-with-pseudocounts",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Construct%20a%20Profile%20HMM%20with%20Pseudocounts"
+  },
+  {
+    "id": "BA3L",
+    "title": "Construct a String Spelled by a Gapped Genome Path",
+    "track": "Textbook Track (BA)",
+    "domain": "genome-assembly",
+    "dir_name": "Construct a String Spelled by a Gapped Genome Path",
+    "wiki_slug": "construct-a-string-spelled-by-a-gapped-genome-path",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Construct%20a%20String%20Spelled%20by%20a%20Gapped%20Genome%20Path"
+  },
+  {
+    "id": "BA9R",
+    "title": "Construct a Suffix Tree from a Suffix Array",
+    "track": "Textbook Track (BA)",
+    "domain": "phylogenetics",
+    "dir_name": "Construct a Suffix Tree from a Suffix Array",
+    "wiki_slug": "construct-a-suffix-tree-from-a-suffix-array",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Construct%20a%20Suffix%20Tree%20from%20a%20Suffix%20Array"
+  },
+  {
+    "id": "BA9A",
+    "title": "Construct a Trie from a Collection of Patterns",
+    "track": "Textbook Track (BA)",
+    "domain": "string-indexing-and-pattern-matching",
+    "dir_name": "Construct a Trie from a Collection of Patterns",
+    "wiki_slug": "construct-a-trie-from-a-collection-of-patterns",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Construct%20a%20Trie%20from%20a%20Collection%20of%20Patterns"
+  },
+  {
+    "id": "BA9I",
+    "title": "Construct the Burrows-Wheeler Transform of a String",
+    "track": "Textbook Track (BA)",
+    "domain": "string-indexing-and-pattern-matching",
+    "dir_name": "Construct the Burrows-Wheeler Transform of a String",
+    "wiki_slug": "construct-the-burrows-wheeler-transform-of-a-string",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Construct%20the%20Burrows-Wheeler%20Transform%20of%20a%20String"
+  },
+  {
+    "id": "BA3E",
+    "title": "Construct the De Bruijn Graph of a Collection of k-mers",
+    "track": "Textbook Track (BA)",
+    "domain": "genome-assembly",
+    "dir_name": "Construct the De Bruijn Graph of a Collection of k-mers",
+    "wiki_slug": "construct-the-de-bruijn-graph-of-a-collection-of-k-mers",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Construct%20the%20De%20Bruijn%20Graph%20of%20a%20Collection%20of%20k-mers"
+  },
+  {
+    "id": "BA3D",
+    "title": "Construct the De Bruijn Graph of a String",
+    "track": "Textbook Track (BA)",
+    "domain": "genome-assembly",
+    "dir_name": "Construct the De Bruijn Graph of a String",
+    "wiki_slug": "construct-the-de-bruijn-graph-of-a-string",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Construct%20the%20De%20Bruijn%20Graph%20of%20a%20String"
+  },
+  {
+    "id": "BA11A",
+    "title": "Construct the Graph of a Spectrum",
+    "track": "Textbook Track (BA)",
+    "domain": "peptide-sequencing-and-spectrometry",
+    "dir_name": "Construct the Graph of a Spectrum",
+    "wiki_slug": "construct-the-graph-of-a-spectrum",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Construct%20the%20Graph%20of%20a%20Spectrum"
+  },
+  {
+    "id": "BA3C",
+    "title": "Construct the Overlap Graph of a Collection of k-mers",
+    "track": "Textbook Track (BA)",
+    "domain": "genome-assembly",
+    "dir_name": "Construct the Overlap Graph of a Collection of k-mers",
+    "wiki_slug": "construct-the-overlap-graph-of-a-collection-of-k-mers",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Construct%20the%20Overlap%20Graph%20of%20a%20Collection%20of%20k-mers"
+  },
+  {
+    "id": "BA9Q",
+    "title": "Construct the Partial Suffix Array of a String",
+    "track": "Textbook Track (BA)",
+    "domain": "string-indexing-and-pattern-matching",
+    "dir_name": "Construct the Partial Suffix Array of a String",
+    "wiki_slug": "construct-the-partial-suffix-array-of-a-string",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Construct%20the%20Partial%20Suffix%20Array%20of%20a%20String"
+  },
+  {
+    "id": "BA9G",
+    "title": "Construct the Suffix Array of a String",
+    "track": "Textbook Track (BA)",
+    "domain": "string-indexing-and-pattern-matching",
+    "dir_name": "Construct the Suffix Array of a String",
+    "wiki_slug": "construct-the-suffix-array-of-a-string",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Construct%20the%20Suffix%20Array%20of%20a%20String"
+  },
+  {
+    "id": "BA9C",
+    "title": "Construct the Suffix Tree of a String",
+    "track": "Textbook Track (BA)",
+    "domain": "phylogenetics",
+    "dir_name": "Construct the Suffix Tree of a String",
+    "wiki_slug": "construct-the-suffix-tree-of-a-string",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Construct%20the%20Suffix%20Tree%20of%20a%20String"
+  },
+  {
+    "id": "BA11D",
+    "title": "Convert a Peptide Vector into a Peptide",
+    "track": "Textbook Track (BA)",
+    "domain": "peptide-sequencing-and-spectrometry",
+    "dir_name": "Convert a Peptide Vector into a Peptide",
+    "wiki_slug": "convert-a-peptide-vector-into-a-peptide",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Convert%20a%20Peptide%20Vector%20into%20a%20Peptide"
+  },
+  {
+    "id": "BA11C",
+    "title": "Convert a Peptide into a Peptide Vector",
+    "track": "Textbook Track (BA)",
+    "domain": "peptide-sequencing-and-spectrometry",
+    "dir_name": "Convert a Peptide into a Peptide Vector",
+    "wiki_slug": "convert-a-peptide-into-a-peptide-vector",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Convert%20a%20Peptide%20into%20a%20Peptide%20Vector"
+  },
+  {
+    "id": "BA10H",
+    "title": "Estimate the Parameters of an HMM",
+    "track": "Textbook Track (BA)",
+    "domain": "hidden-markov-models",
+    "dir_name": "Estimate the Parameters of an HMM",
+    "wiki_slug": "estimate-the-parameters-of-an-hmm",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Estimate%20the%20Parameters%20of%20an%20HMM"
+  },
+  {
+    "id": "BA9O",
+    "title": "Find All Approximate Occurrences of a Collection of Patterns in a String",
+    "track": "Textbook Track (BA)",
+    "domain": "string-indexing-and-pattern-matching",
+    "dir_name": "Find All Approximate Occurrences of a Collection of Patterns in a String",
+    "wiki_slug": "find-all-approximate-occurrences-of-a-collection-of-patterns-in-a-string",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20All%20Approximate%20Occurrences%20of%20a%20Collection%20of%20Patterns%20in%20a%20String"
+  },
+  {
+    "id": "BA1H",
+    "title": "Find All Approximate Occurrences of a Pattern in a String",
+    "track": "Textbook Track (BA)",
+    "domain": "string-indexing-and-pattern-matching",
+    "dir_name": "Find All Approximate Occurrences of a Pattern in a String",
+    "wiki_slug": "find-all-approximate-occurrences-of-a-pattern-in-a-string",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20All%20Approximate%20Occurrences%20of%20a%20Pattern%20in%20a%20String"
+  },
+  {
+    "id": "BA9N",
+    "title": "Find All Occurrences of a Collection of Patterns in a String",
+    "track": "Textbook Track (BA)",
+    "domain": "sequence-alignment",
+    "dir_name": "Find All Occurrences of a Collection of Patterns in a String",
+    "wiki_slug": "find-all-occurrences-of-a-collection-of-patterns-in-a-string",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20All%20Occurrences%20of%20a%20Collection%20of%20Patterns%20in%20a%20String"
+  },
+  {
+    "id": "BA1D",
+    "title": "Find All Occurrences of a Pattern in a String",
+    "track": "Textbook Track (BA)",
+    "domain": "sequence-alignment",
+    "dir_name": "Find All Occurrences of a Pattern in a String",
+    "wiki_slug": "find-all-occurrences-of-a-pattern-in-a-string",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20All%20Occurrences%20of%20a%20Pattern%20in%20a%20String"
+  },
+  {
+    "id": "BA6E",
+    "title": "Find All Shared k-mers of a Pair of Strings",
+    "track": "Textbook Track (BA)",
+    "domain": "sequence-alignment",
+    "dir_name": "Find All Shared k-mers of a Pair of Strings",
+    "wiki_slug": "find-all-shared-k-mers-of-a-pair-of-strings",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20All%20Shared%20k-mers%20of%20a%20Pair%20of%20Strings"
+  },
+  {
+    "id": "BA1J",
+    "title": "Find Frequent Words with Mismatches and Reverse Complements",
+    "track": "Textbook Track (BA)",
+    "domain": "motif-finding",
+    "dir_name": "Find Frequent Words with Mismatches and Reverse Complements",
+    "wiki_slug": "find-frequent-words-with-mismatches-and-reverse-complements",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20Frequent%20Words%20with%20Mismatches%20and%20Reverse%20Complements"
+  },
+  {
+    "id": "BA1E",
+    "title": "Find Patterns Forming Clumps in a String",
+    "track": "Textbook Track (BA)",
+    "domain": "motif-finding",
+    "dir_name": "Find Patterns Forming Clumps in a String",
+    "wiki_slug": "find-patterns-forming-clumps-in-a-string",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20Patterns%20Forming%20Clumps%20in%20a%20String"
+  },
+  {
+    "id": "BA4B",
+    "title": "Find Substrings of a Genome Encoding a Given Amino Acid String",
+    "track": "Textbook Track (BA)",
+    "domain": "sequence-alignment",
+    "dir_name": "Find Substrings of a Genome Encoding a Given Amino Acid String",
+    "wiki_slug": "find-substrings-of-a-genome-encoding-a-given-amino-acid-string",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20Substrings%20of%20a%20Genome%20Encoding%20a%20Given%20Amino%20Acid%20String"
+  },
+  {
+    "id": "BA4E",
+    "title": "Find a Cyclic Peptide with Theoretical Spectrum Matching an Ideal Spectrum",
+    "track": "Textbook Track (BA)",
+    "domain": "peptide-sequencing-and-spectrometry",
+    "dir_name": "Find a Cyclic Peptide with Theoretical Spectrum Matching an Ideal Spectrum",
+    "wiki_slug": "find-a-cyclic-peptide-with-theoretical-spectrum-matching-an-ideal-spectrum",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20a%20Cyclic%20Peptide%20with%20Theoretical%20Spectrum%20Matching%20an%20Ideal%20Spectrum"
+  },
+  {
+    "id": "BA5E",
+    "title": "Find a Highest-Scoring Alignment of Two Strings",
+    "track": "Textbook Track (BA)",
+    "domain": "sequence-alignment",
+    "dir_name": "Find a Highest-Scoring Alignment of Two Strings",
+    "wiki_slug": "find-a-highest-scoring-alignment-of-two-strings",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20a%20Highest-Scoring%20Alignment%20of%20Two%20Strings"
+  },
+  {
+    "id": "BA5H",
+    "title": "Find a Highest-Scoring Fitting Alignment of Two Strings",
+    "track": "Textbook Track (BA)",
+    "domain": "sequence-alignment",
+    "dir_name": "Find a Highest-Scoring Fitting Alignment of Two Strings",
+    "wiki_slug": "find-a-highest-scoring-fitting-alignment-of-two-strings",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20a%20Highest-Scoring%20Fitting%20Alignment%20of%20Two%20Strings"
+  },
+  {
+    "id": "BA5F",
+    "title": "Find a Highest-Scoring Local Alignment of Two Strings",
+    "track": "Textbook Track (BA)",
+    "domain": "sequence-alignment",
+    "dir_name": "Find a Highest-Scoring Local Alignment of Two Strings",
+    "wiki_slug": "find-a-highest-scoring-local-alignment-of-two-strings",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20a%20Highest-Scoring%20Local%20Alignment%20of%20Two%20Strings"
+  },
+  {
+    "id": "BA11J",
+    "title": "Find a Highest-Scoring Modified Peptide against a Spectrum",
+    "track": "Textbook Track (BA)",
+    "domain": "peptide-sequencing-and-spectrometry",
+    "dir_name": "Find a Highest-Scoring Modified Peptide against a Spectrum",
+    "wiki_slug": "find-a-highest-scoring-modified-peptide-against-a-spectrum",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20a%20Highest-Scoring%20Modified%20Peptide%20against%20a%20Spectrum"
+  },
+  {
+    "id": "BA5M",
+    "title": "Find a Highest-Scoring Multiple Sequence Alignment",
+    "track": "Textbook Track (BA)",
+    "domain": "sequence-alignment",
+    "dir_name": "Find a Highest-Scoring Multiple Sequence Alignment",
+    "wiki_slug": "find-a-highest-scoring-multiple-sequence-alignment",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20a%20Highest-Scoring%20Multiple%20Sequence%20Alignment"
+  },
+  {
+    "id": "BA5I",
+    "title": "Find a Highest-Scoring Overlap Alignment of Two Strings",
+    "track": "Textbook Track (BA)",
+    "domain": "sequence-alignment",
+    "dir_name": "Find a Highest-Scoring Overlap Alignment of Two Strings",
+    "wiki_slug": "find-a-highest-scoring-overlap-alignment-of-two-strings",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20a%20Highest-Scoring%20Overlap%20Alignment%20of%20Two%20Strings"
+  },
+  {
+    "id": "BA11F",
+    "title": "Find a Highest-Scoring Peptide in a Proteome against a Spectrum",
+    "track": "Textbook Track (BA)",
+    "domain": "peptide-sequencing-and-spectrometry",
+    "dir_name": "Find a Highest-Scoring Peptide in a Proteome against a Spectrum",
+    "wiki_slug": "find-a-highest-scoring-peptide-in-a-proteome-against-a-spectrum",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20a%20Highest-Scoring%20Peptide%20in%20a%20Proteome%20against%20a%20Spectrum"
+  },
+  {
+    "id": "BA5C",
+    "title": "Find a Longest Common Subsequence of Two Strings",
+    "track": "Textbook Track (BA)",
+    "domain": "sequence-alignment",
+    "dir_name": "Find a Longest Common Subsequence of Two Strings",
+    "wiki_slug": "find-a-longest-common-subsequence-of-two-strings",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20a%20Longest%20Common%20Subsequence%20of%20Two%20Strings"
+  },
+  {
+    "id": "BA2B",
+    "title": "Find a Median String",
+    "track": "Textbook Track (BA)",
+    "domain": "motif-finding",
+    "dir_name": "Find a Median String",
+    "wiki_slug": "find-a-median-string",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20a%20Median%20String"
+  },
+  {
+    "id": "BA5K",
+    "title": "Find a Middle Edge in an Alignment Graph in Linear Space",
+    "track": "Textbook Track (BA)",
+    "domain": "sequence-alignment",
+    "dir_name": "Find a Middle Edge in an Alignment Graph in Linear Space",
+    "wiki_slug": "find-a-middle-edge-in-an-alignment-graph-in-linear-space",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20a%20Middle%20Edge%20in%20an%20Alignment%20Graph%20in%20Linear%20Space"
+  },
+  {
+    "id": "BA1F",
+    "title": "Find a Position in a Genome Minimizing the Skew",
+    "track": "Textbook Track (BA)",
+    "domain": "sequence-alignment",
+    "dir_name": "Find a Position in a Genome Minimizing the Skew",
+    "wiki_slug": "find-a-position-in-a-genome-minimizing-the-skew",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20a%20Position%20in%20a%20Genome%20Minimizing%20the%20Skew"
+  },
+  {
+    "id": "BA2C",
+    "title": "Find a Profile-most Probable k-mer in a String",
+    "track": "Textbook Track (BA)",
+    "domain": "motif-finding",
+    "dir_name": "Find a Profile-most Probable k-mer in a String",
+    "wiki_slug": "find-a-profile-most-probable-k-mer-in-a-string",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20a%20Profile-most%20Probable%20k-mer%20in%20a%20String"
+  },
+  {
+    "id": "BA6D",
+    "title": "Find a Shortest Transformation of One Genome into Another by 2-Breaks",
+    "track": "Textbook Track (BA)",
+    "domain": "genome-rearrangements",
+    "dir_name": "Find a Shortest Transformation of One Genome into Another by 2-Breaks",
+    "wiki_slug": "find-a-shortest-transformation-of-one-genome-into-another-by-2-breaks",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20a%20Shortest%20Transformation%20of%20One%20Genome%20into%20Another%20by%202-Breaks"
+  },
+  {
+    "id": "BA5N",
+    "title": "Find a Topological Ordering of a DAG",
+    "track": "Textbook Track (BA)",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "Find a Topological Ordering of a DAG",
+    "wiki_slug": "find-a-topological-ordering-of-a-dag",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20a%20Topological%20Ordering%20of%20a%20DAG"
+  },
+  {
+    "id": "BA3I",
+    "title": "Find a k-Universal Circular String",
+    "track": "Textbook Track (BA)",
+    "domain": "genome-assembly",
+    "dir_name": "Find a k-Universal Circular String",
+    "wiki_slug": "find-a-k-universal-circular-string",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20a%20k-Universal%20Circular%20String"
+  },
+  {
+    "id": "BA3F",
+    "title": "Find an Eulerian Cycle in a Graph",
+    "track": "Textbook Track (BA)",
+    "domain": "genome-assembly",
+    "dir_name": "Find an Eulerian Cycle in a Graph",
+    "wiki_slug": "find-an-eulerian-cycle-in-a-graph",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20an%20Eulerian%20Cycle%20in%20a%20Graph"
+  },
+  {
+    "id": "BA3G",
+    "title": "Find an Eulerian Path in a Graph",
+    "track": "Textbook Track (BA)",
+    "domain": "genome-assembly",
+    "dir_name": "Find an Eulerian Path in a Graph",
+    "wiki_slug": "find-an-eulerian-path-in-a-graph",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20an%20Eulerian%20Path%20in%20a%20Graph"
+  },
+  {
+    "id": "BA5B",
+    "title": "Find the Length of a Longest Path in a Manhattan-like Grid",
+    "track": "Textbook Track (BA)",
+    "domain": "sequence-alignment",
+    "dir_name": "Find the Length of a Longest Path in a Manhattan-like Grid",
+    "wiki_slug": "find-the-length-of-a-longest-path-in-a-manhattan-like-grid",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20the%20Length%20of%20a%20Longest%20Path%20in%20a%20Manhattan-like%20Grid"
+  },
+  {
+    "id": "BA5D",
+    "title": "Find the Longest Path in a DAG",
+    "track": "Textbook Track (BA)",
+    "domain": "sequence-alignment",
+    "dir_name": "Find the Longest Path in a DAG",
+    "wiki_slug": "find-the-longest-path-in-a-dag",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20the%20Longest%20Path%20in%20a%20DAG"
+  },
+  {
+    "id": "BA9D",
+    "title": "Find the Longest Repeat in a String",
+    "track": "Textbook Track (BA)",
+    "domain": "string-indexing-and-pattern-matching",
+    "dir_name": "Find the Longest Repeat in a String",
+    "wiki_slug": "find-the-longest-repeat-in-a-string",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20the%20Longest%20Repeat%20in%20a%20String"
+  },
+  {
+    "id": "BA9E",
+    "title": "Find the Longest Substring Shared by Two Strings",
+    "track": "Textbook Track (BA)",
+    "domain": "sequence-alignment",
+    "dir_name": "Find the Longest Substring Shared by Two Strings",
+    "wiki_slug": "find-the-longest-substring-shared-by-two-strings",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20the%20Longest%20Substring%20Shared%20by%20Two%20Strings"
+  },
+  {
+    "id": "BA5A",
+    "title": "Find the Minimum Number of Coins Needed to Make Change",
+    "track": "Textbook Track (BA)",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "Find the Minimum Number of Coins Needed to Make Change",
+    "wiki_slug": "find-the-minimum-number-of-coins-needed-to-make-change",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20the%20Minimum%20Number%20of%20Coins%20Needed%20to%20Make%20Change"
+  },
+  {
+    "id": "BA1B",
+    "title": "Find the Most Frequent Words in a String",
+    "track": "Textbook Track (BA)",
+    "domain": "motif-finding",
+    "dir_name": "Find the Most Frequent Words in a String",
+    "wiki_slug": "find-the-most-frequent-words-in-a-string",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20the%20Most%20Frequent%20Words%20in%20a%20String"
+  },
+  {
+    "id": "BA1I",
+    "title": "Find the Most Frequent Words with Mismatches in a String",
+    "track": "Textbook Track (BA)",
+    "domain": "motif-finding",
+    "dir_name": "Find the Most Frequent Words with Mismatches in a String",
+    "wiki_slug": "find-the-most-frequent-words-with-mismatches-in-a-string",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20the%20Most%20Frequent%20Words%20with%20Mismatches%20in%20a%20String"
+  },
+  {
+    "id": "BA1C",
+    "title": "Find the Reverse Complement of a String",
+    "track": "Textbook Track (BA)",
+    "domain": "sequence-alignment",
+    "dir_name": "Find the Reverse Complement of a String",
+    "wiki_slug": "find-the-reverse-complement-of-a-string",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20the%20Reverse%20Complement%20of%20a%20String"
+  },
+  {
+    "id": "BA9F",
+    "title": "Find the Shortest Non-Shared Substring of Two Strings",
+    "track": "Textbook Track (BA)",
+    "domain": "string-indexing-and-pattern-matching",
+    "dir_name": "Find the Shortest Non-Shared Substring of Two Strings",
+    "wiki_slug": "find-the-shortest-non-shared-substring-of-two-strings",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Find%20the%20Shortest%20Non-Shared%20Substring%20of%20Two%20Strings"
+  },
+  {
+    "id": "BA3M",
+    "title": "Generate All Maximal Non-Branching Paths in a Graph",
+    "track": "Textbook Track (BA)",
+    "domain": "genome-assembly",
+    "dir_name": "Generate All Maximal Non-Branching Paths in a Graph",
+    "wiki_slug": "generate-all-maximal-non-branching-paths-in-a-graph",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Generate%20All%20Maximal%20Non-Branching%20Paths%20in%20a%20Graph"
+  },
+  {
+    "id": "BA3K",
+    "title": "Generate Contigs from a Collection of Reads",
+    "track": "Textbook Track (BA)",
+    "domain": "genome-assembly",
+    "dir_name": "Generate Contigs from a Collection of Reads",
+    "wiki_slug": "generate-contigs-from-a-collection-of-reads",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Generate%20Contigs%20from%20a%20Collection%20of%20Reads"
+  },
+  {
+    "id": "BA4H",
+    "title": "Generate the Convolution of a Spectrum",
+    "track": "Textbook Track (BA)",
+    "domain": "peptide-sequencing-and-spectrometry",
+    "dir_name": "Generate the Convolution of a Spectrum",
+    "wiki_slug": "generate-the-convolution-of-a-spectrum",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Generate%20the%20Convolution%20of%20a%20Spectrum"
+  },
+  {
+    "id": "BA1K",
+    "title": "Generate the Frequency Array of a String",
+    "track": "Textbook Track (BA)",
+    "domain": "sequence-alignment",
+    "dir_name": "Generate the Frequency Array of a String",
+    "wiki_slug": "generate-the-frequency-array-of-a-string",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Generate%20the%20Frequency%20Array%20of%20a%20String"
+  },
+  {
+    "id": "BA9K",
+    "title": "Generate the Last-to-First Mapping of a String",
+    "track": "Textbook Track (BA)",
+    "domain": "string-indexing-and-pattern-matching",
+    "dir_name": "Generate the Last-to-First Mapping of a String",
+    "wiki_slug": "generate-the-last-to-first-mapping-of-a-string",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Generate%20the%20Last-to-First%20Mapping%20of%20a%20String"
+  },
+  {
+    "id": "BA4C",
+    "title": "Generate the Theoretical Spectrum of a Cyclic Peptide",
+    "track": "Textbook Track (BA)",
+    "domain": "peptide-sequencing-and-spectrometry",
+    "dir_name": "Generate the Theoretical Spectrum of a Cyclic Peptide",
+    "wiki_slug": "generate-the-theoretical-spectrum-of-a-cyclic-peptide",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Generate%20the%20Theoretical%20Spectrum%20of%20a%20Cyclic%20Peptide"
+  },
+  {
+    "id": "BA4J",
+    "title": "Generate the Theoretical Spectrum of a Linear Peptide",
+    "track": "Textbook Track (BA)",
+    "domain": "peptide-sequencing-and-spectrometry",
+    "dir_name": "Generate the Theoretical Spectrum of a Linear Peptide",
+    "wiki_slug": "generate-the-theoretical-spectrum-of-a-linear-peptide",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Generate%20the%20Theoretical%20Spectrum%20of%20a%20Linear%20Peptide"
+  },
+  {
+    "id": "BA1N",
+    "title": "Generate the d-Neighborhood of a String",
+    "track": "Textbook Track (BA)",
+    "domain": "motif-finding",
+    "dir_name": "Generate the d-Neighborhood of a String",
+    "wiki_slug": "generate-the-d-neighborhood-of-a-string",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Generate%20the%20d-Neighborhood%20of%20a%20String"
+  },
+  {
+    "id": "BA3A",
+    "title": "Generate the k-mer Composition of a String",
+    "track": "Textbook Track (BA)",
+    "domain": "genome-assembly",
+    "dir_name": "Generate the k-mer Composition of a String",
+    "wiki_slug": "generate-the-k-mer-composition-of-a-string",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Generate%20the%20k-mer%20Composition%20of%20a%20String"
+  },
+  {
+    "id": "BA6K",
+    "title": "Implement 2-BreakOnGenome",
+    "track": "Textbook Track (BA)",
+    "domain": "genome-rearrangements",
+    "dir_name": "Implement 2-BreakOnGenome",
+    "wiki_slug": "implement-2-breakongenome",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Implement%202-BreakOnGenome"
+  },
+  {
+    "id": "BA6J",
+    "title": "Implement 2-BreakOnGenomeGraph",
+    "track": "Textbook Track (BA)",
+    "domain": "genome-rearrangements",
+    "dir_name": "Implement 2-BreakOnGenomeGraph",
+    "wiki_slug": "implement-2-breakongenomegraph",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Implement%202-BreakOnGenomeGraph"
+  },
+  {
+    "id": "BA7C",
+    "title": "Implement AdditivePhylogeny",
+    "track": "Textbook Track (BA)",
+    "domain": "phylogenetics",
+    "dir_name": "Implement AdditivePhylogeny",
+    "wiki_slug": "implement-additivephylogeny",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Implement%20AdditivePhylogeny"
+  },
+  {
+    "id": "BA9L",
+    "title": "Implement BWMatching",
+    "track": "Textbook Track (BA)",
+    "domain": "string-indexing-and-pattern-matching",
+    "dir_name": "Implement BWMatching",
+    "wiki_slug": "implement-bwmatching",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Implement%20BWMatching"
+  },
+  {
+    "id": "BA10K",
+    "title": "Implement Baum-Welch Learning",
+    "track": "Textbook Track (BA)",
+    "domain": "hidden-markov-models",
+    "dir_name": "Implement Baum-Welch Learning",
+    "wiki_slug": "implement-baum-welch-learning",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Implement%20Baum-Welch%20Learning"
+  },
+  {
+    "id": "BA9M",
+    "title": "Implement BetterBWMatching",
+    "track": "Textbook Track (BA)",
+    "domain": "string-indexing-and-pattern-matching",
+    "dir_name": "Implement BetterBWMatching",
+    "wiki_slug": "implement-betterbwmatching",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Implement%20BetterBWMatching"
+  },
+  {
+    "id": "BA6F",
+    "title": "Implement ChromosomeToCycle",
+    "track": "Textbook Track (BA)",
+    "domain": "genome-rearrangements",
+    "dir_name": "Implement ChromosomeToCycle",
+    "wiki_slug": "implement-chromosometocycle",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Implement%20ChromosomeToCycle"
+  },
+  {
+    "id": "BA6H",
+    "title": "Implement ColoredEdges",
+    "track": "Textbook Track (BA)",
+    "domain": "sequence-alignment",
+    "dir_name": "Implement ColoredEdges",
+    "wiki_slug": "implement-colorededges",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Implement%20ColoredEdges"
+  },
+  {
+    "id": "BA4I",
+    "title": "Implement ConvolutionCyclopeptideSequencing",
+    "track": "Textbook Track (BA)",
+    "domain": "peptide-sequencing-and-spectrometry",
+    "dir_name": "Implement ConvolutionCyclopeptideSequencing",
+    "wiki_slug": "implement-convolutioncyclopeptidesequencing",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Implement%20ConvolutionCyclopeptideSequencing"
+  },
+  {
+    "id": "BA6G",
+    "title": "Implement CycleToChromosome",
+    "track": "Textbook Track (BA)",
+    "domain": "genome-rearrangements",
+    "dir_name": "Implement CycleToChromosome",
+    "wiki_slug": "implement-cycletochromosome",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Implement%20CycleToChromosome"
+  },
+  {
+    "id": "BA11B",
+    "title": "Implement DecodingIdealSpectrum",
+    "track": "Textbook Track (BA)",
+    "domain": "peptide-sequencing-and-spectrometry",
+    "dir_name": "Implement DecodingIdealSpectrum",
+    "wiki_slug": "implement-decodingidealspectrum",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Implement%20DecodingIdealSpectrum"
+  },
+  {
+    "id": "BA2H",
+    "title": "Implement DistanceBetweenPatternAndStrings",
+    "track": "Textbook Track (BA)",
+    "domain": "sequence-alignment",
+    "dir_name": "Implement DistanceBetweenPatternAndStrings",
+    "wiki_slug": "implement-distancebetweenpatternandstrings",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Implement%20DistanceBetweenPatternAndStrings"
+  },
+  {
+    "id": "BA8A",
+    "title": "Implement FarthestFirstTraversal",
+    "track": "Textbook Track (BA)",
+    "domain": "clustering-algorithms",
+    "dir_name": "Implement FarthestFirstTraversal",
+    "wiki_slug": "implement-farthestfirsttraversal",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Implement%20FarthestFirstTraversal"
+  },
+  {
+    "id": "BA2G",
+    "title": "Implement GibbsSampler",
+    "track": "Textbook Track (BA)",
+    "domain": "motif-finding",
+    "dir_name": "Implement GibbsSampler",
+    "wiki_slug": "implement-gibbssampler",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Implement%20GibbsSampler"
+  },
+  {
+    "id": "BA6I",
+    "title": "Implement GraphToGenome",
+    "track": "Textbook Track (BA)",
+    "domain": "genome-rearrangements",
+    "dir_name": "Implement GraphToGenome",
+    "wiki_slug": "implement-graphtogenome",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Implement%20GraphToGenome"
+  },
+  {
+    "id": "BA2D",
+    "title": "Implement GreedyMotifSearch",
+    "track": "Textbook Track (BA)",
+    "domain": "motif-finding",
+    "dir_name": "Implement GreedyMotifSearch",
+    "wiki_slug": "implement-greedymotifsearch",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Implement%20GreedyMotifSearch"
+  },
+  {
+    "id": "BA2E",
+    "title": "Implement GreedyMotifSearch with Pseudocounts",
+    "track": "Textbook Track (BA)",
+    "domain": "motif-finding",
+    "dir_name": "Implement GreedyMotifSearch with Pseudocounts",
+    "wiki_slug": "implement-greedymotifsearch-with-pseudocounts",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Implement%20GreedyMotifSearch%20with%20Pseudocounts"
+  },
+  {
+    "id": "BA6A",
+    "title": "Implement GreedySorting to Sort a Permutation by Reversals",
+    "track": "Textbook Track (BA)",
+    "domain": "genome-rearrangements",
+    "dir_name": "Implement GreedySorting to Sort a Permutation by Reversals",
+    "wiki_slug": "implement-greedysorting-to-sort-a-permutation-by-reversals",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Implement%20GreedySorting%20to%20Sort%20a%20Permutation%20by%20Reversals"
+  },
+  {
+    "id": "BA8E",
+    "title": "Implement Hierarchical Clustering",
+    "track": "Textbook Track (BA)",
+    "domain": "clustering-algorithms",
+    "dir_name": "Implement Hierarchical Clustering",
+    "wiki_slug": "implement-hierarchical-clustering",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Implement%20Hierarchical%20Clustering"
+  },
+  {
+    "id": "BA4G",
+    "title": "Implement LeaderboardCyclopeptideSequencing",
+    "track": "Textbook Track (BA)",
+    "domain": "peptide-sequencing-and-spectrometry",
+    "dir_name": "Implement LeaderboardCyclopeptideSequencing",
+    "wiki_slug": "implement-leaderboardcyclopeptidesequencing",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Implement%20LeaderboardCyclopeptideSequencing"
+  },
+  {
+    "id": "BA2A",
+    "title": "Implement MotifEnumeration",
+    "track": "Textbook Track (BA)",
+    "domain": "motif-finding",
+    "dir_name": "Implement MotifEnumeration",
+    "wiki_slug": "implement-motifenumeration",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Implement%20MotifEnumeration"
+  },
+  {
+    "id": "BA1M",
+    "title": "Implement NumberToPattern",
+    "track": "Textbook Track (BA)",
+    "domain": "sequence-alignment",
+    "dir_name": "Implement NumberToPattern",
+    "wiki_slug": "implement-numbertopattern",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Implement%20NumberToPattern"
+  },
+  {
+    "id": "BA11G",
+    "title": "Implement PSMSearch",
+    "track": "Textbook Track (BA)",
+    "domain": "peptide-sequencing-and-spectrometry",
+    "dir_name": "Implement PSMSearch",
+    "wiki_slug": "implement-psmsearch",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Implement%20PSMSearch"
+  },
+  {
+    "id": "BA1L",
+    "title": "Implement PatternToNumber",
+    "track": "Textbook Track (BA)",
+    "domain": "sequence-alignment",
+    "dir_name": "Implement PatternToNumber",
+    "wiki_slug": "implement-patterntonumber",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Implement%20PatternToNumber"
+  },
+  {
+    "id": "BA2F",
+    "title": "Implement RandomizedMotifSearch",
+    "track": "Textbook Track (BA)",
+    "domain": "motif-finding",
+    "dir_name": "Implement RandomizedMotifSearch",
+    "wiki_slug": "implement-randomizedmotifsearch",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Implement%20RandomizedMotifSearch"
+  },
+  {
+    "id": "BA7F",
+    "title": "Implement SmallParsimony",
+    "track": "Textbook Track (BA)",
+    "domain": "phylogenetics",
+    "dir_name": "Implement SmallParsimony",
+    "wiki_slug": "implement-smallparsimony",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Implement%20SmallParsimony"
+  },
+  {
+    "id": "BA9P",
+    "title": "Implement TreeColoring",
+    "track": "Textbook Track (BA)",
+    "domain": "phylogenetics",
+    "dir_name": "Implement TreeColoring",
+    "wiki_slug": "implement-treecoloring",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Implement%20TreeColoring"
+  },
+  {
+    "id": "BA9B",
+    "title": "Implement TrieMatching",
+    "track": "Textbook Track (BA)",
+    "domain": "string-indexing-and-pattern-matching",
+    "dir_name": "Implement TrieMatching",
+    "wiki_slug": "implement-triematching",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Implement%20TrieMatching"
+  },
+  {
+    "id": "BA7D",
+    "title": "Implement UPGMA",
+    "track": "Textbook Track (BA)",
+    "domain": "phylogenetics",
+    "dir_name": "Implement UPGMA",
+    "wiki_slug": "implement-upgma",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Implement%20UPGMA"
+  },
+  {
+    "id": "BA10I",
+    "title": "Implement Viterbi Learning",
+    "track": "Textbook Track (BA)",
+    "domain": "hidden-markov-models",
+    "dir_name": "Implement Viterbi Learning",
+    "wiki_slug": "implement-viterbi-learning",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Implement%20Viterbi%20Learning"
+  },
+  {
+    "id": "BA8C",
+    "title": "Implement the Lloyd Algorithm for k-Means Clustering",
+    "track": "Textbook Track (BA)",
+    "domain": "clustering-algorithms",
+    "dir_name": "Implement the Lloyd Algorithm for k-Means Clustering",
+    "wiki_slug": "implement-the-lloyd-algorithm-for-k-means-clustering",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Implement%20the%20Lloyd%20Algorithm%20for%20k-Means%20Clustering"
+  },
+  {
+    "id": "BA7E",
+    "title": "Implement the Neighbor Joining Algorithm",
+    "track": "Textbook Track (BA)",
+    "domain": "phylogenetics",
+    "dir_name": "Implement the Neighbor Joining Algorithm",
+    "wiki_slug": "implement-the-neighbor-joining-algorithm",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Implement%20the%20Neighbor%20Joining%20Algorithm"
+  },
+  {
+    "id": "BA8D",
+    "title": "Implement the Soft k-Means Clustering Algorithm",
+    "track": "Textbook Track (BA)",
+    "domain": "clustering-algorithms",
+    "dir_name": "Implement the Soft k-Means Clustering Algorithm",
+    "wiki_slug": "implement-the-soft-k-means-clustering-algorithm",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Implement%20the%20Soft%20k-Means%20Clustering%20Algorithm"
+  },
+  {
+    "id": "BA10C",
+    "title": "Implement the Viterbi Algorithm",
+    "track": "Textbook Track (BA)",
+    "domain": "hidden-markov-models",
+    "dir_name": "Implement the Viterbi Algorithm",
+    "wiki_slug": "implement-the-viterbi-algorithm",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Implement%20the%20Viterbi%20Algorithm"
+  },
+  {
+    "id": "BA9H",
+    "title": "Pattern Matching with the Suffix Array",
+    "track": "Textbook Track (BA)",
+    "domain": "string-indexing-and-pattern-matching",
+    "dir_name": "Pattern Matching with the Suffix Array",
+    "wiki_slug": "pattern-matching-with-the-suffix-array",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Pattern%20Matching%20with%20the%20Suffix%20Array"
+  },
+  {
+    "id": "BA10G",
+    "title": "Perform a Multiple Sequence Alignment with a Profile HMM",
+    "track": "Textbook Track (BA)",
+    "domain": "hidden-markov-models",
+    "dir_name": "Perform a Multiple Sequence Alignment with a Profile HMM",
+    "wiki_slug": "perform-a-multiple-sequence-alignment-with-a-profile-hmm",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Perform%20a%20Multiple%20Sequence%20Alignment%20with%20a%20Profile%20HMM"
+  },
+  {
+    "id": "BA9J",
+    "title": "Reconstruct a String from its Burrows-Wheeler Transform",
+    "track": "Textbook Track (BA)",
+    "domain": "string-indexing-and-pattern-matching",
+    "dir_name": "Reconstruct a String from its Burrows-Wheeler Transform",
+    "wiki_slug": "reconstruct-a-string-from-its-burrows-wheeler-transform",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Reconstruct%20a%20String%20from%20its%20Burrows-Wheeler%20Transform"
+  },
+  {
+    "id": "BA3B",
+    "title": "Reconstruct a String from its Genome Path",
+    "track": "Textbook Track (BA)",
+    "domain": "genome-assembly",
+    "dir_name": "Reconstruct a String from its Genome Path",
+    "wiki_slug": "reconstruct-a-string-from-its-genome-path",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Reconstruct%20a%20String%20from%20its%20Genome%20Path"
+  },
+  {
+    "id": "BA3J",
+    "title": "Reconstruct a String from its Paired Composition",
+    "track": "Textbook Track (BA)",
+    "domain": "genome-assembly",
+    "dir_name": "Reconstruct a String from its Paired Composition",
+    "wiki_slug": "reconstruct-a-string-from-its-paired-composition",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Reconstruct%20a%20String%20from%20its%20Paired%20Composition"
+  },
+  {
+    "id": "BA3H",
+    "title": "Reconstruct a String from its k-mer Composition",
+    "track": "Textbook Track (BA)",
+    "domain": "genome-assembly",
+    "dir_name": "Reconstruct a String from its k-mer Composition",
+    "wiki_slug": "reconstruct-a-string-from-its-k-mer-composition",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Reconstruct%20a%20String%20from%20its%20k-mer%20Composition"
+  },
+  {
+    "id": "BA11E",
+    "title": "Sequence a Peptide",
+    "track": "Textbook Track (BA)",
+    "domain": "peptide-sequencing-and-spectrometry",
+    "dir_name": "Sequence a Peptide",
+    "wiki_slug": "sequence-a-peptide",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Sequence%20a%20Peptide"
+  },
+  {
+    "id": "BA10J",
+    "title": "Solve the Soft Decoding Problem",
+    "track": "Textbook Track (BA)",
+    "domain": "hidden-markov-models",
+    "dir_name": "Solve the Soft Decoding Problem",
+    "wiki_slug": "solve-the-soft-decoding-problem",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Solve%20the%20Soft%20Decoding%20Problem"
+  },
+  {
+    "id": "BA4M",
+    "title": "Solve the Turnpike Problem",
+    "track": "Textbook Track (BA)",
+    "domain": "genome-assembly",
+    "dir_name": "Solve the Turnpike Problem",
+    "wiki_slug": "solve-the-turnpike-problem",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Solve%20the%20Turnpike%20Problem"
+  },
+  {
+    "id": "BA4A",
+    "title": "Translate an RNA String into an Amino Acid String",
+    "track": "Textbook Track (BA)",
+    "domain": "sequence-alignment",
+    "dir_name": "Translate an RNA String into an Amino Acid String",
+    "wiki_slug": "translate-an-rna-string-into-an-amino-acid-string",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Translate%20an%20RNA%20String%20into%20an%20Amino%20Acid%20String"
+  },
+  {
+    "id": "BA4L",
+    "title": "Trim a Peptide Leaderboard",
+    "track": "Textbook Track (BA)",
+    "domain": "peptide-sequencing-and-spectrometry",
+    "dir_name": "Trim a Peptide Leaderboard",
+    "wiki_slug": "trim-a-peptide-leaderboard",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Trim%20a%20Peptide%20Leaderboard"
+  },
+  {
+    "id": "ALPH",
+    "title": "Alignment-Based Phylogeny",
+    "track": "Bioinformatics Stronghold",
+    "domain": "phylogenetics",
+    "dir_name": "Alignment-Based Phylogeny",
+    "wiki_slug": "alignment-based-phylogeny",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Alignment-Based%20Phylogeny"
+  },
+  {
+    "id": "ASMQ",
+    "title": "Assessing Assembly Quality with N50 and N75",
+    "track": "Bioinformatics Stronghold",
+    "domain": "genome-assembly",
+    "dir_name": "Assessing Assembly Quality with N50 and N75",
+    "wiki_slug": "assessing-assembly-quality-with-n50-and-n75",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Assessing%20Assembly%20Quality%20with%20N50%20and%20N75"
+  },
+  {
+    "id": "IEV",
+    "title": "Calculating Expected Offspring",
+    "track": "Bioinformatics Stronghold",
+    "domain": "population-genetics-and-combinatorics",
+    "dir_name": "Calculating Expected Offspring",
+    "wiki_slug": "calculating-expected-offspring",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Calculating%20Expected%20Offspring"
+  },
+  {
+    "id": "PRTM",
+    "title": "Calculating Protein Mass",
+    "track": "Bioinformatics Stronghold",
+    "domain": "peptide-sequencing-and-spectrometry",
+    "dir_name": "Calculating Protein Mass",
+    "wiki_slug": "calculating-protein-mass",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Calculating%20Protein%20Mass"
+  },
+  {
+    "id": "CAT",
+    "title": "Catalan Numbers and RNA Secondary Structures",
+    "track": "Bioinformatics Stronghold",
+    "domain": "population-genetics-and-combinatorics",
+    "dir_name": "Catalan Numbers and RNA Secondary Structures",
+    "wiki_slug": "catalan-numbers-and-rna-secondary-structures",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Catalan%20Numbers%20and%20RNA%20Secondary%20Structures"
+  },
+  {
+    "id": "CHBP",
+    "title": "Character-Based Phylogeny",
+    "track": "Bioinformatics Stronghold",
+    "domain": "phylogenetics",
+    "dir_name": "Character-Based Phylogeny",
+    "wiki_slug": "character-based-phylogeny",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Character-Based%20Phylogeny"
+  },
+  {
+    "id": "CONV",
+    "title": "Comparing Spectra with the Spectral Convolution",
+    "track": "Bioinformatics Stronghold",
+    "domain": "peptide-sequencing-and-spectrometry",
+    "dir_name": "Comparing Spectra with the Spectral Convolution",
+    "wiki_slug": "comparing-spectra-with-the-spectral-convolution",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Comparing%20Spectra%20with%20the%20Spectral%20Convolution"
+  },
+  {
+    "id": "REVC",
+    "title": "Complementing a Strand of DNA",
+    "track": "Bioinformatics Stronghold",
+    "domain": "population-genetics-and-combinatorics",
+    "dir_name": "Complementing a Strand of DNA",
+    "wiki_slug": "complementing-a-strand-of-dna",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Complementing%20a%20Strand%20of%20DNA"
+  },
+  {
+    "id": "TREE",
+    "title": "Completing a Tree",
+    "track": "Bioinformatics Stronghold",
+    "domain": "phylogenetics",
+    "dir_name": "Completing a Tree",
+    "wiki_slug": "completing-a-tree",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Completing%20a%20Tree"
+  },
+  {
+    "id": "GC",
+    "title": "Computing GC Content",
+    "track": "Bioinformatics Stronghold",
+    "domain": "sequence-alignment",
+    "dir_name": "Computing GC Content",
+    "wiki_slug": "computing-gc-content",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Computing%20GC%20Content"
+  },
+  {
+    "id": "CONS",
+    "title": "Consensus and Profile",
+    "track": "Bioinformatics Stronghold",
+    "domain": "sequence-alignment",
+    "dir_name": "Consensus and Profile",
+    "wiki_slug": "consensus-and-profile",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Consensus%20and%20Profile"
+  },
+  {
+    "id": "DBRU",
+    "title": "Constructing a De Bruijn Graph",
+    "track": "Bioinformatics Stronghold",
+    "domain": "genome-assembly",
+    "dir_name": "Constructing a De Bruijn Graph",
+    "wiki_slug": "constructing-a-de-bruijn-graph",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Constructing%20a%20De%20Bruijn%20Graph"
+  },
+  {
+    "id": "DNA",
+    "title": "Counting DNA Nucleotides",
+    "track": "Bioinformatics Stronghold",
+    "domain": "population-genetics-and-combinatorics",
+    "dir_name": "Counting DNA Nucleotides",
+    "wiki_slug": "counting-dna-nucleotides",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Counting%20DNA%20Nucleotides"
+  },
+  {
+    "id": "AFRQ",
+    "title": "Counting Disease Carriers",
+    "track": "Bioinformatics Stronghold",
+    "domain": "population-genetics-and-combinatorics",
+    "dir_name": "Counting Disease Carriers",
+    "wiki_slug": "counting-disease-carriers",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Counting%20Disease%20Carriers"
+  },
+  {
+    "id": "CTEA",
+    "title": "Counting Optimal Alignments",
+    "track": "Bioinformatics Stronghold",
+    "domain": "sequence-alignment",
+    "dir_name": "Counting Optimal Alignments",
+    "wiki_slug": "counting-optimal-alignments",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Counting%20Optimal%20Alignments"
+  },
+  {
+    "id": "INOD",
+    "title": "Counting Phylogenetic Ancestors",
+    "track": "Bioinformatics Stronghold",
+    "domain": "phylogenetics",
+    "dir_name": "Counting Phylogenetic Ancestors",
+    "wiki_slug": "counting-phylogenetic-ancestors",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Counting%20Phylogenetic%20Ancestors"
+  },
+  {
+    "id": "HAMM",
+    "title": "Counting Point Mutations",
+    "track": "Bioinformatics Stronghold",
+    "domain": "population-genetics-and-combinatorics",
+    "dir_name": "Counting Point Mutations",
+    "wiki_slug": "counting-point-mutations",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Counting%20Point%20Mutations"
+  },
+  {
+    "id": "CNTQ",
+    "title": "Counting Quartets",
+    "track": "Bioinformatics Stronghold",
+    "domain": "phylogenetics",
+    "dir_name": "Counting Quartets",
+    "wiki_slug": "counting-quartets",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Counting%20Quartets"
+  },
+  {
+    "id": "ROOT",
+    "title": "Counting Rooted Binary Trees",
+    "track": "Bioinformatics Stronghold",
+    "domain": "phylogenetics",
+    "dir_name": "Counting Rooted Binary Trees",
+    "wiki_slug": "counting-rooted-binary-trees",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Counting%20Rooted%20Binary%20Trees"
+  },
+  {
+    "id": "SSET",
+    "title": "Counting Subsets",
+    "track": "Bioinformatics Stronghold",
+    "domain": "population-genetics-and-combinatorics",
+    "dir_name": "Counting Subsets",
+    "wiki_slug": "counting-subsets",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Counting%20Subsets"
+  },
+  {
+    "id": "CUNR",
+    "title": "Counting Unrooted Binary Trees",
+    "track": "Bioinformatics Stronghold",
+    "domain": "phylogenetics",
+    "dir_name": "Counting Unrooted Binary Trees",
+    "wiki_slug": "counting-unrooted-binary-trees",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Counting%20Unrooted%20Binary%20Trees"
+  },
+  {
+    "id": "CTBL",
+    "title": "Creating a Character Table",
+    "track": "Bioinformatics Stronghold",
+    "domain": "phylogenetics",
+    "dir_name": "Creating a Character Table",
+    "wiki_slug": "creating-a-character-table",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Creating%20a%20Character%20Table"
+  },
+  {
+    "id": "CSTR",
+    "title": "Creating a Character Table from Genetic Strings",
+    "track": "Bioinformatics Stronghold",
+    "domain": "phylogenetics",
+    "dir_name": "Creating a Character Table from Genetic Strings",
+    "wiki_slug": "creating-a-character-table-from-genetic-strings",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Creating%20a%20Character%20Table%20from%20Genetic%20Strings"
+  },
+  {
+    "id": "PDST",
+    "title": "Creating a Distance Matrix",
+    "track": "Bioinformatics Stronghold",
+    "domain": "sequence-alignment",
+    "dir_name": "Creating a Distance Matrix",
+    "wiki_slug": "creating-a-distance-matrix",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Creating%20a%20Distance%20Matrix"
+  },
+  {
+    "id": "PDPL",
+    "title": "Creating a Restriction Map",
+    "track": "Bioinformatics Stronghold",
+    "domain": "population-genetics-and-combinatorics",
+    "dir_name": "Creating a Restriction Map",
+    "wiki_slug": "creating-a-restriction-map",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Creating%20a%20Restriction%20Map"
+  },
+  {
+    "id": "NWCK",
+    "title": "Distances in Trees",
+    "track": "Bioinformatics Stronghold",
+    "domain": "phylogenetics",
+    "dir_name": "Distances in Trees",
+    "wiki_slug": "distances-in-trees",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Distances%20in%20Trees"
+  },
+  {
+    "id": "EDIT",
+    "title": "Edit Distance",
+    "track": "Bioinformatics Stronghold",
+    "domain": "sequence-alignment",
+    "dir_name": "Edit Distance",
+    "wiki_slug": "edit-distance",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Edit%20Distance"
+  },
+  {
+    "id": "EDTA",
+    "title": "Edit Distance Alignment",
+    "track": "Bioinformatics Stronghold",
+    "domain": "sequence-alignment",
+    "dir_name": "Edit Distance Alignment",
+    "wiki_slug": "edit-distance-alignment",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Edit%20Distance%20Alignment"
+  },
+  {
+    "id": "SUFF",
+    "title": "Encoding Suffix Trees",
+    "track": "Bioinformatics Stronghold",
+    "domain": "phylogenetics",
+    "dir_name": "Encoding Suffix Trees",
+    "wiki_slug": "encoding-suffix-trees",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Encoding%20Suffix%20Trees"
+  },
+  {
+    "id": "PERM",
+    "title": "Enumerating Gene Orders",
+    "track": "Bioinformatics Stronghold",
+    "domain": "sequence-alignment",
+    "dir_name": "Enumerating Gene Orders",
+    "wiki_slug": "enumerating-gene-orders",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Enumerating%20Gene%20Orders"
+  },
+  {
+    "id": "SIGN",
+    "title": "Enumerating Oriented Gene Orderings",
+    "track": "Bioinformatics Stronghold",
+    "domain": "sequence-alignment",
+    "dir_name": "Enumerating Oriented Gene Orderings",
+    "wiki_slug": "enumerating-oriented-gene-orderings",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Enumerating%20Oriented%20Gene%20Orderings"
+  },
+  {
+    "id": "EUBT",
+    "title": "Enumerating Unrooted Binary Trees",
+    "track": "Bioinformatics Stronghold",
+    "domain": "phylogenetics",
+    "dir_name": "Enumerating Unrooted Binary Trees",
+    "wiki_slug": "enumerating-unrooted-binary-trees",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Enumerating%20Unrooted%20Binary%20Trees"
+  },
+  {
+    "id": "LEXF",
+    "title": "Enumerating k-mers Lexicographically",
+    "track": "Bioinformatics Stronghold",
+    "domain": "sequence-alignment",
+    "dir_name": "Enumerating k-mers Lexicographically",
+    "wiki_slug": "enumerating-k-mers-lexicographically",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Enumerating%20k-mers%20Lexicographically"
+  },
+  {
+    "id": "CORR",
+    "title": "Error Correction in Reads",
+    "track": "Bioinformatics Stronghold",
+    "domain": "genome-assembly",
+    "dir_name": "Error Correction in Reads",
+    "wiki_slug": "error-correction-in-reads",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Error%20Correction%20in%20Reads"
+  },
+  {
+    "id": "EVAL",
+    "title": "Expected Number of Restriction Sites",
+    "track": "Bioinformatics Stronghold",
+    "domain": "population-genetics-and-combinatorics",
+    "dir_name": "Expected Number of Restriction Sites",
+    "wiki_slug": "expected-number-of-restriction-sites",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Expected%20Number%20of%20Restriction%20Sites"
+  },
+  {
+    "id": "ITWV",
+    "title": "Finding Disjoint Motifs in a Gene",
+    "track": "Bioinformatics Stronghold",
+    "domain": "motif-finding",
+    "dir_name": "Finding Disjoint Motifs in a Gene",
+    "wiki_slug": "finding-disjoint-motifs-in-a-gene",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Finding%20Disjoint%20Motifs%20in%20a%20Gene"
+  },
+  {
+    "id": "SUBS",
+    "title": "Finding a Motif in DNA",
+    "track": "Bioinformatics Stronghold",
+    "domain": "motif-finding",
+    "dir_name": "Finding a Motif in DNA",
+    "wiki_slug": "finding-a-motif-in-dna",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Finding%20a%20Motif%20in%20DNA"
+  },
+  {
+    "id": "SIMS",
+    "title": "Finding a Motif with Modifications",
+    "track": "Bioinformatics Stronghold",
+    "domain": "motif-finding",
+    "dir_name": "Finding a Motif with Modifications",
+    "wiki_slug": "finding-a-motif-with-modifications",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Finding%20a%20Motif%20with%20Modifications"
+  },
+  {
+    "id": "MPRT",
+    "title": "Finding a Protein Motif",
+    "track": "Bioinformatics Stronghold",
+    "domain": "motif-finding",
+    "dir_name": "Finding a Protein Motif",
+    "wiki_slug": "finding-a-protein-motif",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Finding%20a%20Protein%20Motif"
+  },
+  {
+    "id": "LCSM",
+    "title": "Finding a Shared Motif",
+    "track": "Bioinformatics Stronghold",
+    "domain": "motif-finding",
+    "dir_name": "Finding a Shared Motif",
+    "wiki_slug": "finding-a-shared-motif",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Finding%20a%20Shared%20Motif"
+  },
+  {
+    "id": "LCSQ",
+    "title": "Finding a Shared Spliced Motif",
+    "track": "Bioinformatics Stronghold",
+    "domain": "motif-finding",
+    "dir_name": "Finding a Shared Spliced Motif",
+    "wiki_slug": "finding-a-shared-spliced-motif",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Finding%20a%20Shared%20Spliced%20Motif"
+  },
+  {
+    "id": "SSEQ",
+    "title": "Finding a Spliced Motif",
+    "track": "Bioinformatics Stronghold",
+    "domain": "motif-finding",
+    "dir_name": "Finding a Spliced Motif",
+    "wiki_slug": "finding-a-spliced-motif",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Finding%20a%20Spliced%20Motif"
+  },
+  {
+    "id": "LREP",
+    "title": "Finding the Longest Multiple Repeat",
+    "track": "Bioinformatics Stronghold",
+    "domain": "string-indexing-and-pattern-matching",
+    "dir_name": "Finding the Longest Multiple Repeat",
+    "wiki_slug": "finding-the-longest-multiple-repeat",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Finding%20the%20Longest%20Multiple%20Repeat"
+  },
+  {
+    "id": "CSET",
+    "title": "Fixing an Inconsistent Character Set",
+    "track": "Bioinformatics Stronghold",
+    "domain": "phylogenetics",
+    "dir_name": "Fixing an Inconsistent Character Set",
+    "wiki_slug": "fixing-an-inconsistent-character-set",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Fixing%20an%20Inconsistent%20Character%20Set"
+  },
+  {
+    "id": "GASM",
+    "title": "Genome Assembly Using Reads",
+    "track": "Bioinformatics Stronghold",
+    "domain": "genome-assembly",
+    "dir_name": "Genome Assembly Using Reads",
+    "wiki_slug": "genome-assembly-using-reads",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Genome%20Assembly%20Using%20Reads"
+  },
+  {
+    "id": "LONG",
+    "title": "Genome Assembly as Shortest Superstring",
+    "track": "Bioinformatics Stronghold",
+    "domain": "genome-assembly",
+    "dir_name": "Genome Assembly as Shortest Superstring",
+    "wiki_slug": "genome-assembly-as-shortest-superstring",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Genome%20Assembly%20as%20Shortest%20Superstring"
+  },
+  {
+    "id": "PCOV",
+    "title": "Genome Assembly with Perfect Coverage",
+    "track": "Bioinformatics Stronghold",
+    "domain": "genome-assembly",
+    "dir_name": "Genome Assembly with Perfect Coverage",
+    "wiki_slug": "genome-assembly-with-perfect-coverage",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Genome%20Assembly%20with%20Perfect%20Coverage"
+  },
+  {
+    "id": "GREP",
+    "title": "Genome Assembly with Perfect Coverage and Repeats",
+    "track": "Bioinformatics Stronghold",
+    "domain": "genome-assembly",
+    "dir_name": "Genome Assembly with Perfect Coverage and Repeats",
+    "wiki_slug": "genome-assembly-with-perfect-coverage-and-repeats",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Genome%20Assembly%20with%20Perfect%20Coverage%20and%20Repeats"
+  },
+  {
+    "id": "GCON",
+    "title": "Global Alignment with Constant Gap Penalty",
+    "track": "Bioinformatics Stronghold",
+    "domain": "sequence-alignment",
+    "dir_name": "Global Alignment with Constant Gap Penalty",
+    "wiki_slug": "global-alignment-with-constant-gap-penalty",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Global%20Alignment%20with%20Constant%20Gap%20Penalty"
+  },
+  {
+    "id": "GLOB",
+    "title": "Global Alignment with Scoring Matrix",
+    "track": "Bioinformatics Stronghold",
+    "domain": "sequence-alignment",
+    "dir_name": "Global Alignment with Scoring Matrix",
+    "wiki_slug": "global-alignment-with-scoring-matrix",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Global%20Alignment%20with%20Scoring%20Matrix"
+  },
+  {
+    "id": "GAFF",
+    "title": "Global Alignment with Scoring Matrix and Affine Gap Penalty",
+    "track": "Bioinformatics Stronghold",
+    "domain": "sequence-alignment",
+    "dir_name": "Global Alignment with Scoring Matrix and Affine Gap Penalty",
+    "wiki_slug": "global-alignment-with-scoring-matrix-and-affine-gap-penalty",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Global%20Alignment%20with%20Scoring%20Matrix%20and%20Affine%20Gap%20Penalty"
+  },
+  {
+    "id": "RSUB",
+    "title": "Identifying Reversing Substitutions",
+    "track": "Bioinformatics Stronghold",
+    "domain": "sequence-alignment",
+    "dir_name": "Identifying Reversing Substitutions",
+    "wiki_slug": "identifying-reversing-substitutions",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Identifying%20Reversing%20Substitutions"
+  },
+  {
+    "id": "LIA",
+    "title": "Independent Alleles",
+    "track": "Bioinformatics Stronghold",
+    "domain": "population-genetics-and-combinatorics",
+    "dir_name": "Independent Alleles",
+    "wiki_slug": "independent-alleles",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Independent%20Alleles"
+  },
+  {
+    "id": "INDC",
+    "title": "Independent Segregation of Chromosomes",
+    "track": "Bioinformatics Stronghold",
+    "domain": "genome-rearrangements",
+    "dir_name": "Independent Segregation of Chromosomes",
+    "wiki_slug": "independent-segregation-of-chromosomes",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Independent%20Segregation%20of%20Chromosomes"
+  },
+  {
+    "id": "MEND",
+    "title": "Inferring Genotype from a Pedigree",
+    "track": "Bioinformatics Stronghold",
+    "domain": "population-genetics-and-combinatorics",
+    "dir_name": "Inferring Genotype from a Pedigree",
+    "wiki_slug": "inferring-genotype-from-a-pedigree",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Inferring%20Genotype%20from%20a%20Pedigree"
+  },
+  {
+    "id": "FULL",
+    "title": "Inferring Peptide from Full Spectrum",
+    "track": "Bioinformatics Stronghold",
+    "domain": "peptide-sequencing-and-spectrometry",
+    "dir_name": "Inferring Peptide from Full Spectrum",
+    "wiki_slug": "inferring-peptide-from-full-spectrum",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Inferring%20Peptide%20from%20Full%20Spectrum"
+  },
+  {
+    "id": "SPEC",
+    "title": "Inferring Protein from Spectrum",
+    "track": "Bioinformatics Stronghold",
+    "domain": "peptide-sequencing-and-spectrometry",
+    "dir_name": "Inferring Protein from Spectrum",
+    "wiki_slug": "inferring-protein-from-spectrum",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Inferring%20Protein%20from%20Spectrum"
+  },
+  {
+    "id": "MRNA",
+    "title": "Inferring mRNA from Protein",
+    "track": "Bioinformatics Stronghold",
+    "domain": "population-genetics-and-combinatorics",
+    "dir_name": "Inferring mRNA from Protein",
+    "wiki_slug": "inferring-mrna-from-protein",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Inferring%20mRNA%20from%20Protein"
+  },
+  {
+    "id": "INS",
+    "title": "Insertion Sort",
+    "track": "Bioinformatics Stronghold",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "Insertion Sort",
+    "wiki_slug": "insertion-sort",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Insertion%20Sort"
+  },
+  {
+    "id": "SCSP",
+    "title": "Interleaving Two Motifs",
+    "track": "Bioinformatics Stronghold",
+    "domain": "motif-finding",
+    "dir_name": "Interleaving Two Motifs",
+    "wiki_slug": "interleaving-two-motifs",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Interleaving%20Two%20Motifs"
+  },
+  {
+    "id": "ASPC",
+    "title": "Introduction to Alternative Splicing",
+    "track": "Bioinformatics Stronghold",
+    "domain": "sequence-alignment",
+    "dir_name": "Introduction to Alternative Splicing",
+    "wiki_slug": "introduction-to-alternative-splicing",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Introduction%20to%20Alternative%20Splicing"
+  },
+  {
+    "id": "TRIE",
+    "title": "Introduction to Pattern Matching",
+    "track": "Bioinformatics Stronghold",
+    "domain": "string-indexing-and-pattern-matching",
+    "dir_name": "Introduction to Pattern Matching",
+    "wiki_slug": "introduction-to-pattern-matching",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Introduction%20to%20Pattern%20Matching"
+  },
+  {
+    "id": "PROB",
+    "title": "Introduction to Random Strings",
+    "track": "Bioinformatics Stronghold",
+    "domain": "population-genetics-and-combinatorics",
+    "dir_name": "Introduction to Random Strings",
+    "wiki_slug": "introduction-to-random-strings",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Introduction%20to%20Random%20Strings"
+  },
+  {
+    "id": "SETO",
+    "title": "Introduction to Set Operations",
+    "track": "Bioinformatics Stronghold",
+    "domain": "sequence-alignment",
+    "dir_name": "Introduction to Set Operations",
+    "wiki_slug": "introduction-to-set-operations",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Introduction%20to%20Set%20Operations"
+  },
+  {
+    "id": "OSYM",
+    "title": "Isolating Symbols in Alignments",
+    "track": "Bioinformatics Stronghold",
+    "domain": "sequence-alignment",
+    "dir_name": "Isolating Symbols in Alignments",
+    "wiki_slug": "isolating-symbols-in-alignments",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Isolating%20Symbols%20in%20Alignments"
+  },
+  {
+    "id": "LING",
+    "title": "Linguistic Complexity of a Genome",
+    "track": "Bioinformatics Stronghold",
+    "domain": "string-indexing-and-pattern-matching",
+    "dir_name": "Linguistic Complexity of a Genome",
+    "wiki_slug": "linguistic-complexity-of-a-genome",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Linguistic%20Complexity%20of%20a%20Genome"
+  },
+  {
+    "id": "LAFF",
+    "title": "Local Alignment with Affine Gap Penalty",
+    "track": "Bioinformatics Stronghold",
+    "domain": "sequence-alignment",
+    "dir_name": "Local Alignment with Affine Gap Penalty",
+    "wiki_slug": "local-alignment-with-affine-gap-penalty",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Local%20Alignment%20with%20Affine%20Gap%20Penalty"
+  },
+  {
+    "id": "LOCA",
+    "title": "Local Alignment with Scoring Matrix",
+    "track": "Bioinformatics Stronghold",
+    "domain": "sequence-alignment",
+    "dir_name": "Local Alignment with Scoring Matrix",
+    "wiki_slug": "local-alignment-with-scoring-matrix",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Local%20Alignment%20with%20Scoring%20Matrix"
+  },
+  {
+    "id": "REVP",
+    "title": "Locating Restriction Sites",
+    "track": "Bioinformatics Stronghold",
+    "domain": "population-genetics-and-combinatorics",
+    "dir_name": "Locating Restriction Sites",
+    "wiki_slug": "locating-restriction-sites",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Locating%20Restriction%20Sites"
+  },
+  {
+    "id": "LGIS",
+    "title": "Longest Increasing Subsequence",
+    "track": "Bioinformatics Stronghold",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "Longest Increasing Subsequence",
+    "wiki_slug": "longest-increasing-subsequence",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Longest%20Increasing%20Subsequence"
+  },
+  {
+    "id": "RSTR",
+    "title": "Matching Random Motifs",
+    "track": "Bioinformatics Stronghold",
+    "domain": "motif-finding",
+    "dir_name": "Matching Random Motifs",
+    "wiki_slug": "matching-random-motifs",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Matching%20Random%20Motifs"
+  },
+  {
+    "id": "PRSM",
+    "title": "Matching a Spectrum to a Protein",
+    "track": "Bioinformatics Stronghold",
+    "domain": "peptide-sequencing-and-spectrometry",
+    "dir_name": "Matching a Spectrum to a Protein",
+    "wiki_slug": "matching-a-spectrum-to-a-protein",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Matching%20a%20Spectrum%20to%20a%20Protein"
+  },
+  {
+    "id": "MGAP",
+    "title": "Maximizing the Gap Symbols of an Optimal Alignment",
+    "track": "Bioinformatics Stronghold",
+    "domain": "sequence-alignment",
+    "dir_name": "Maximizing the Gap Symbols of an Optimal Alignment",
+    "wiki_slug": "maximizing-the-gap-symbols-of-an-optimal-alignment",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Maximizing%20the%20Gap%20Symbols%20of%20an%20Optimal%20Alignment"
+  },
+  {
+    "id": "MMCH",
+    "title": "Maximum Matchings and RNA Secondary Structures",
+    "track": "Bioinformatics Stronghold",
+    "domain": "population-genetics-and-combinatorics",
+    "dir_name": "Maximum Matchings and RNA Secondary Structures",
+    "wiki_slug": "maximum-matchings-and-rna-secondary-structures",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Maximum%20Matchings%20and%20RNA%20Secondary%20Structures"
+  },
+  {
+    "id": "IPRB",
+    "title": "Mendel's First Law",
+    "track": "Bioinformatics Stronghold",
+    "domain": "population-genetics-and-combinatorics",
+    "dir_name": "Mendel's First Law",
+    "wiki_slug": "mendels-first-law",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Mendel's%20First%20Law"
+  },
+  {
+    "id": "FIBD",
+    "title": "Mortal Fibonacci Rabbits",
+    "track": "Bioinformatics Stronghold",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "Mortal Fibonacci Rabbits",
+    "wiki_slug": "mortal-fibonacci-rabbits",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Mortal%20Fibonacci%20Rabbits"
+  },
+  {
+    "id": "MOTZ",
+    "title": "Motzkin Numbers and RNA Secondary Structures",
+    "track": "Bioinformatics Stronghold",
+    "domain": "population-genetics-and-combinatorics",
+    "dir_name": "Motzkin Numbers and RNA Secondary Structures",
+    "wiki_slug": "motzkin-numbers-and-rna-secondary-structures",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Motzkin%20Numbers%20and%20RNA%20Secondary%20Structures"
+  },
+  {
+    "id": "MULT",
+    "title": "Multiple Alignment",
+    "track": "Bioinformatics Stronghold",
+    "domain": "sequence-alignment",
+    "dir_name": "Multiple Alignment",
+    "wiki_slug": "multiple-alignment",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Multiple%20Alignment"
+  },
+  {
+    "id": "MEME",
+    "title": "New Motif Discovery",
+    "track": "Bioinformatics Stronghold",
+    "domain": "motif-finding",
+    "dir_name": "New Motif Discovery",
+    "wiki_slug": "new-motif-discovery",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/New%20Motif%20Discovery"
+  },
+  {
+    "id": "NKEW",
+    "title": "Newick Format with Edge Weights",
+    "track": "Bioinformatics Stronghold",
+    "domain": "phylogenetics",
+    "dir_name": "Newick Format with Edge Weights",
+    "wiki_slug": "newick-format-with-edge-weights",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Newick%20Format%20with%20Edge%20Weights"
+  },
+  {
+    "id": "ORF",
+    "title": "Open Reading Frames",
+    "track": "Bioinformatics Stronghold",
+    "domain": "population-genetics-and-combinatorics",
+    "dir_name": "Open Reading Frames",
+    "wiki_slug": "open-reading-frames",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Open%20Reading%20Frames"
+  },
+  {
+    "id": "LEXV",
+    "title": "Ordering Strings of Varying Length Lexicographically",
+    "track": "Bioinformatics Stronghold",
+    "domain": "sequence-alignment",
+    "dir_name": "Ordering Strings of Varying Length Lexicographically",
+    "wiki_slug": "ordering-strings-of-varying-length-lexicographically",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Ordering%20Strings%20of%20Varying%20Length%20Lexicographically"
+  },
+  {
+    "id": "OAP",
+    "title": "Overlap Alignment",
+    "track": "Bioinformatics Stronghold",
+    "domain": "sequence-alignment",
+    "dir_name": "Overlap Alignment",
+    "wiki_slug": "overlap-alignment",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Overlap%20Alignment"
+  },
+  {
+    "id": "GRPH",
+    "title": "Overlap Graphs",
+    "track": "Bioinformatics Stronghold",
+    "domain": "genome-assembly",
+    "dir_name": "Overlap Graphs",
+    "wiki_slug": "overlap-graphs",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Overlap%20Graphs"
+  },
+  {
+    "id": "PPER",
+    "title": "Partial Permutations",
+    "track": "Bioinformatics Stronghold",
+    "domain": "sequence-alignment",
+    "dir_name": "Partial Permutations",
+    "wiki_slug": "partial-permutations",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Partial%20Permutations"
+  },
+  {
+    "id": "PMCH",
+    "title": "Perfect Matchings and RNA Secondary Structures",
+    "track": "Bioinformatics Stronghold",
+    "domain": "population-genetics-and-combinatorics",
+    "dir_name": "Perfect Matchings and RNA Secondary Structures",
+    "wiki_slug": "perfect-matchings-and-rna-secondary-structures",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Perfect%20Matchings%20and%20RNA%20Secondary%20Structures"
+  },
+  {
+    "id": "SPTD",
+    "title": "Phylogeny Comparison with Split Distance",
+    "track": "Bioinformatics Stronghold",
+    "domain": "phylogenetics",
+    "dir_name": "Phylogeny Comparison with Split Distance",
+    "wiki_slug": "phylogeny-comparison-with-split-distance",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Phylogeny%20Comparison%20with%20Split%20Distance"
+  },
+  {
+    "id": "QRTD",
+    "title": "Quartet Distance",
+    "track": "Bioinformatics Stronghold",
+    "domain": "phylogenetics",
+    "dir_name": "Quartet Distance",
+    "wiki_slug": "quartet-distance",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Quartet%20Distance"
+  },
+  {
+    "id": "QRT",
+    "title": "Quartets",
+    "track": "Bioinformatics Stronghold",
+    "domain": "phylogenetics",
+    "dir_name": "Quartets",
+    "wiki_slug": "quartets",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Quartets"
+  },
+  {
+    "id": "SPLC",
+    "title": "RNA Splicing",
+    "track": "Bioinformatics Stronghold",
+    "domain": "population-genetics-and-combinatorics",
+    "dir_name": "RNA Splicing",
+    "wiki_slug": "rna-splicing",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/RNA%20Splicing"
+  },
+  {
+    "id": "FIB",
+    "title": "Rabbits and Recurrence Relations",
+    "track": "Bioinformatics Stronghold",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "Rabbits and Recurrence Relations",
+    "wiki_slug": "rabbits-and-recurrence-relations",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Rabbits%20and%20Recurrence%20Relations"
+  },
+  {
+    "id": "REAR",
+    "title": "Reversal Distance",
+    "track": "Bioinformatics Stronghold",
+    "domain": "genome-rearrangements",
+    "dir_name": "Reversal Distance",
+    "wiki_slug": "reversal-distance",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Reversal%20Distance"
+  },
+  {
+    "id": "SMGB",
+    "title": "Semiglobal Alignment",
+    "track": "Bioinformatics Stronghold",
+    "domain": "sequence-alignment",
+    "dir_name": "Semiglobal Alignment",
+    "wiki_slug": "semiglobal-alignment",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Semiglobal%20Alignment"
+  },
+  {
+    "id": "SEXL",
+    "title": "Sex-Linked Inheritance",
+    "track": "Bioinformatics Stronghold",
+    "domain": "population-genetics-and-combinatorics",
+    "dir_name": "Sex-Linked Inheritance",
+    "wiki_slug": "sex-linked-inheritance",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Sex-Linked%20Inheritance"
+  },
+  {
+    "id": "SDAG",
+    "title": "Shortest Paths in DAG",
+    "track": "Bioinformatics Stronghold",
+    "domain": "sequence-alignment",
+    "dir_name": "Shortest Paths in DAG",
+    "wiki_slug": "shortest-paths-in-dag",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Shortest%20Paths%20in%20DAG"
+  },
+  {
+    "id": "SORT",
+    "title": "Sorting by Reversals",
+    "track": "Bioinformatics Stronghold",
+    "domain": "genome-rearrangements",
+    "dir_name": "Sorting by Reversals",
+    "wiki_slug": "sorting-by-reversals",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Sorting%20by%20Reversals"
+  },
+  {
+    "id": "KMP",
+    "title": "Speeding Up Motif Finding",
+    "track": "Bioinformatics Stronghold",
+    "domain": "motif-finding",
+    "dir_name": "Speeding Up Motif Finding",
+    "wiki_slug": "speeding-up-motif-finding",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Speeding%20Up%20Motif%20Finding"
+  },
+  {
+    "id": "FOUN",
+    "title": "The Founder Effect and Genetic Drift",
+    "track": "Bioinformatics Stronghold",
+    "domain": "population-genetics-and-combinatorics",
+    "dir_name": "The Founder Effect and Genetic Drift",
+    "wiki_slug": "the-founder-effect-and-genetic-drift",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/The%20Founder%20Effect%20and%20Genetic%20Drift"
+  },
+  {
+    "id": "WFMD",
+    "title": "The Wright-Fisher Model of Genetic Drift",
+    "track": "Bioinformatics Stronghold",
+    "domain": "population-genetics-and-combinatorics",
+    "dir_name": "The Wright-Fisher Model of Genetic Drift",
+    "wiki_slug": "the-wright-fisher-model-of-genetic-drift",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/The%20Wright-Fisher%20Model%20of%20Genetic%20Drift"
+  },
+  {
+    "id": "RNA",
+    "title": "Transcribing DNA into RNA",
+    "track": "Bioinformatics Stronghold",
+    "domain": "population-genetics-and-combinatorics",
+    "dir_name": "Transcribing DNA into RNA",
+    "wiki_slug": "transcribing-dna-into-rna",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Transcribing%20DNA%20into%20RNA"
+  },
+  {
+    "id": "TRAN",
+    "title": "Transitions and Transversions",
+    "track": "Bioinformatics Stronghold",
+    "domain": "population-genetics-and-combinatorics",
+    "dir_name": "Transitions and Transversions",
+    "wiki_slug": "transitions-and-transversions",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Transitions%20and%20Transversions"
+  },
+  {
+    "id": "PROT",
+    "title": "Translating RNA into Protein",
+    "track": "Bioinformatics Stronghold",
+    "domain": "population-genetics-and-combinatorics",
+    "dir_name": "Translating RNA into Protein",
+    "wiki_slug": "translating-rna-into-protein",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Translating%20RNA%20into%20Protein"
+  },
+  {
+    "id": "SGRA",
+    "title": "Using the Spectrum Graph to Infer Peptides",
+    "track": "Bioinformatics Stronghold",
+    "domain": "peptide-sequencing-and-spectrometry",
+    "dir_name": "Using the Spectrum Graph to Infer Peptides",
+    "wiki_slug": "using-the-spectrum-graph-to-infer-peptides",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Using%20the%20Spectrum%20Graph%20to%20Infer%20Peptides"
+  },
+  {
+    "id": "RNAS",
+    "title": "Wobble Bonding and RNA Secondary Structures",
+    "track": "Bioinformatics Stronghold",
+    "domain": "population-genetics-and-combinatorics",
+    "dir_name": "Wobble Bonding and RNA Secondary Structures",
+    "wiki_slug": "wobble-bonding-and-rna-secondary-structures",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Wobble%20Bonding%20and%20RNA%20Secondary%20Structures"
+  },
+  {
+    "id": "EBIN",
+    "title": "Wright-Fisher's Expected Behavior",
+    "track": "Bioinformatics Stronghold",
+    "domain": "population-genetics-and-combinatorics",
+    "dir_name": "Wright-Fisher's Expected Behavior",
+    "wiki_slug": "wright-fishers-expected-behavior",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Wright-Fisher's%20Expected%20Behavior"
+  },
+  {
+    "id": "KMER",
+    "title": "k-Mer Composition",
+    "track": "Bioinformatics Stronghold",
+    "domain": "genome-assembly",
+    "dir_name": "k-Mer Composition",
+    "wiki_slug": "k-mer-composition",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/k-Mer%20Composition"
+  },
+  {
+    "id": "2SAT",
+    "title": "2-Satisfiability",
+    "track": "Algorithmic Heights",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "2-Satisfiability",
+    "wiki_slug": "2-satisfiability",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/2-Satisfiability"
+  },
+  {
+    "id": "PAR",
+    "title": "2-Way Partition",
+    "track": "Algorithmic Heights",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "2-Way Partition",
+    "wiki_slug": "2-way-partition",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/2-Way%20Partition"
+  },
+  {
+    "id": "2SUM",
+    "title": "2SUM",
+    "track": "Algorithmic Heights",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "2SUM",
+    "wiki_slug": "2sum",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/2SUM"
+  },
+  {
+    "id": "PAR3",
+    "title": "3-Way Partition",
+    "track": "Algorithmic Heights",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "3-Way Partition",
+    "wiki_slug": "3-way-partition",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/3-Way%20Partition"
+  },
+  {
+    "id": "3SUM",
+    "title": "3SUM",
+    "track": "Algorithmic Heights",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "3SUM",
+    "wiki_slug": "3sum",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/3SUM"
+  },
+  {
+    "id": "BF",
+    "title": "Bellman-Ford Algorithm",
+    "track": "Algorithmic Heights",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "Bellman-Ford Algorithm",
+    "wiki_slug": "bellman-ford-algorithm",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Bellman-Ford%20Algorithm"
+  },
+  {
+    "id": "BINS",
+    "title": "Binary Search",
+    "track": "Algorithmic Heights",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "Binary Search",
+    "wiki_slug": "binary-search",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Binary%20Search"
+  },
+  {
+    "id": "BFS",
+    "title": "Breadth-First Search",
+    "track": "Algorithmic Heights",
+    "domain": "sequence-alignment",
+    "dir_name": "Breadth-First Search",
+    "wiki_slug": "breadth-first-search",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Breadth-First%20Search"
+  },
+  {
+    "id": "HEA",
+    "title": "Building a Heap",
+    "track": "Algorithmic Heights",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "Building a Heap",
+    "wiki_slug": "building-a-heap",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Building%20a%20Heap"
+  },
+  {
+    "id": "CC",
+    "title": "Connected Components",
+    "track": "Algorithmic Heights",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "Connected Components",
+    "wiki_slug": "connected-components",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Connected%20Components"
+  },
+  {
+    "id": "INV",
+    "title": "Counting Inversions",
+    "track": "Algorithmic Heights",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "Counting Inversions",
+    "wiki_slug": "counting-inversions",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Counting%20Inversions"
+  },
+  {
+    "id": "DEG",
+    "title": "Degree Array",
+    "track": "Algorithmic Heights",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "Degree Array",
+    "wiki_slug": "degree-array",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Degree%20Array"
+  },
+  {
+    "id": "DIJ",
+    "title": "Dijkstra's Algorithm",
+    "track": "Algorithmic Heights",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "Dijkstra's Algorithm",
+    "wiki_slug": "dijkstras-algorithm",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Dijkstra's%20Algorithm"
+  },
+  {
+    "id": "DDEG",
+    "title": "Double-Degree Array",
+    "track": "Algorithmic Heights",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "Double-Degree Array",
+    "wiki_slug": "double-degree-array",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Double-Degree%20Array"
+  },
+  {
+    "id": "FIBO",
+    "title": "Fibonacci Numbers",
+    "track": "Algorithmic Heights",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "Fibonacci Numbers",
+    "wiki_slug": "fibonacci-numbers",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Fibonacci%20Numbers"
+  },
+  {
+    "id": "GS",
+    "title": "General Sink",
+    "track": "Algorithmic Heights",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "General Sink",
+    "wiki_slug": "general-sink",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/General%20Sink"
+  },
+  {
+    "id": "HDAG",
+    "title": "Hamiltonian Path in DAG",
+    "track": "Algorithmic Heights",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "Hamiltonian Path in DAG",
+    "wiki_slug": "hamiltonian-path-in-dag",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Hamiltonian%20Path%20in%20DAG"
+  },
+  {
+    "id": "HS",
+    "title": "Heap Sort",
+    "track": "Algorithmic Heights",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "Heap Sort",
+    "wiki_slug": "heap-sort",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Heap%20Sort"
+  },
+  {
+    "id": "MAJ",
+    "title": "Majority Element",
+    "track": "Algorithmic Heights",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "Majority Element",
+    "wiki_slug": "majority-element",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Majority%20Element"
+  },
+  {
+    "id": "MED",
+    "title": "Median",
+    "track": "Algorithmic Heights",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "Median",
+    "wiki_slug": "median",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Median"
+  },
+  {
+    "id": "MS",
+    "title": "Merge Sort",
+    "track": "Algorithmic Heights",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "Merge Sort",
+    "wiki_slug": "merge-sort",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Merge%20Sort"
+  },
+  {
+    "id": "MER",
+    "title": "Merge Two Sorted Arrays",
+    "track": "Algorithmic Heights",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "Merge Two Sorted Arrays",
+    "wiki_slug": "merge-two-sorted-arrays",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Merge%20Two%20Sorted%20Arrays"
+  },
+  {
+    "id": "NWC",
+    "title": "Negative Weight Cycle",
+    "track": "Algorithmic Heights",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "Negative Weight Cycle",
+    "wiki_slug": "negative-weight-cycle",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Negative%20Weight%20Cycle"
+  },
+  {
+    "id": "PS",
+    "title": "Partial Sort",
+    "track": "Algorithmic Heights",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "Partial Sort",
+    "wiki_slug": "partial-sort",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Partial%20Sort"
+  },
+  {
+    "id": "QS",
+    "title": "Quick Sort",
+    "track": "Algorithmic Heights",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "Quick Sort",
+    "wiki_slug": "quick-sort",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Quick%20Sort"
+  },
+  {
+    "id": "SC",
+    "title": "Semi-Connected Graph",
+    "track": "Algorithmic Heights",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "Semi-Connected Graph",
+    "wiki_slug": "semi-connected-graph",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Semi-Connected%20Graph"
+  },
+  {
+    "id": "CTE",
+    "title": "Shortest Cycle Through a Given Edge",
+    "track": "Algorithmic Heights",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "Shortest Cycle Through a Given Edge",
+    "wiki_slug": "shortest-cycle-through-a-given-edge",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Shortest%20Cycle%20Through%20a%20Given%20Edge"
+  },
+  {
+    "id": "SQ",
+    "title": "Square in a Graph",
+    "track": "Algorithmic Heights",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "Square in a Graph",
+    "wiki_slug": "square-in-a-graph",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Square%20in%20a%20Graph"
+  },
+  {
+    "id": "SCC",
+    "title": "Strongly Connected Components",
+    "track": "Algorithmic Heights",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "Strongly Connected Components",
+    "wiki_slug": "strongly-connected-components",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Strongly%20Connected%20Components"
+  },
+  {
+    "id": "DAG",
+    "title": "Testing Acyclicity",
+    "track": "Algorithmic Heights",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "Testing Acyclicity",
+    "wiki_slug": "testing-acyclicity",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Testing%20Acyclicity"
+  },
+  {
+    "id": "BIP",
+    "title": "Testing Bipartiteness",
+    "track": "Algorithmic Heights",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "Testing Bipartiteness",
+    "wiki_slug": "testing-bipartiteness",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Testing%20Bipartiteness"
+  },
+  {
+    "id": "TS",
+    "title": "Topological Sorting",
+    "track": "Algorithmic Heights",
+    "domain": "graph-and-sorting-algorithms",
+    "dir_name": "Topological Sorting",
+    "wiki_slug": "topological-sorting",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Topological%20Sorting"
+  },
+  {
+    "id": "BFIL",
+    "title": "Base Filtration by Quality",
+    "track": "Bioinformatics Armory",
+    "domain": "bioinformatics-armory",
+    "dir_name": "Base Filtration by Quality",
+    "wiki_slug": "base-filtration-by-quality",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Base%20Filtration%20by%20Quality"
+  },
+  {
+    "id": "BPHR",
+    "title": "Base Quality Distribution",
+    "track": "Bioinformatics Armory",
+    "domain": "bioinformatics-armory",
+    "dir_name": "Base Quality Distribution",
+    "wiki_slug": "base-quality-distribution",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Base%20Quality%20Distribution"
+  },
+  {
+    "id": "RVCO",
+    "title": "Complementing a Strand of DNA(1)",
+    "track": "Bioinformatics Armory",
+    "domain": "bioinformatics-armory",
+    "dir_name": "Complementing a Strand of DNA(1)",
+    "wiki_slug": "complementing-a-strand-of-dna1",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Complementing%20a%20Strand%20of%20DNA(1)"
+  },
+  {
+    "id": "FRMT",
+    "title": "Data Formats",
+    "track": "Bioinformatics Armory",
+    "domain": "bioinformatics-armory",
+    "dir_name": "Data Formats",
+    "wiki_slug": "data-formats",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Data%20Formats"
+  },
+  {
+    "id": "TFSQ",
+    "title": "FASTQ format introduction",
+    "track": "Bioinformatics Armory",
+    "domain": "bioinformatics-armory",
+    "dir_name": "FASTQ format introduction",
+    "wiki_slug": "fastq-format-introduction",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/FASTQ%20format%20introduction"
+  },
+  {
+    "id": "KSIM",
+    "title": "Finding All Similar Motifs",
+    "track": "Bioinformatics Armory",
+    "domain": "bioinformatics-armory",
+    "dir_name": "Finding All Similar Motifs",
+    "wiki_slug": "finding-all-similar-motifs",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Finding%20All%20Similar%20Motifs"
+  },
+  {
+    "id": "ORFR",
+    "title": "Finding Genes with ORFs",
+    "track": "Bioinformatics Armory",
+    "domain": "bioinformatics-armory",
+    "dir_name": "Finding Genes with ORFs",
+    "wiki_slug": "finding-genes-with-orfs",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Finding%20Genes%20with%20ORFs"
+  },
+  {
+    "id": "GBK",
+    "title": "GenBank Introduction",
+    "track": "Bioinformatics Armory",
+    "domain": "bioinformatics-armory",
+    "dir_name": "GenBank Introduction",
+    "wiki_slug": "genbank-introduction",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/GenBank%20Introduction"
+  },
+  {
+    "id": "CLUS",
+    "title": "Global Multiple Alignment",
+    "track": "Bioinformatics Armory",
+    "domain": "bioinformatics-armory",
+    "dir_name": "Global Multiple Alignment",
+    "wiki_slug": "global-multiple-alignment",
+    "tier": "Advanced",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Global%20Multiple%20Alignment"
+  },
+  {
+    "id": "MREP",
+    "title": "Identifying Maximal Repeats",
+    "track": "Bioinformatics Armory",
+    "domain": "bioinformatics-armory",
+    "dir_name": "Identifying Maximal Repeats",
+    "wiki_slug": "identifying-maximal-repeats",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Identifying%20Maximal%20Repeats"
+  },
+  {
+    "id": "INI",
+    "title": "Introduction to the Bioinformatics Armory",
+    "track": "Bioinformatics Armory",
+    "domain": "bioinformatics-armory",
+    "dir_name": "Introduction to the Bioinformatics Armory",
+    "wiki_slug": "introduction-to-the-bioinformatics-armory",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Introduction%20to%20the%20Bioinformatics%20Armory"
+  },
+  {
+    "id": "NEED",
+    "title": "Pairwise Global Alignment",
+    "track": "Bioinformatics Armory",
+    "domain": "bioinformatics-armory",
+    "dir_name": "Pairwise Global Alignment",
+    "wiki_slug": "pairwise-global-alignment",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Pairwise%20Global%20Alignment"
+  },
+  {
+    "id": "PTRA",
+    "title": "Protein Translation",
+    "track": "Bioinformatics Armory",
+    "domain": "bioinformatics-armory",
+    "dir_name": "Protein Translation",
+    "wiki_slug": "protein-translation",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Protein%20Translation"
+  },
+  {
+    "id": "FILT",
+    "title": "Read Filtration by Quality",
+    "track": "Bioinformatics Armory",
+    "domain": "bioinformatics-armory",
+    "dir_name": "Read Filtration by Quality",
+    "wiki_slug": "read-filtration-by-quality",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Read%20Filtration%20by%20Quality"
+  },
+  {
+    "id": "PHRE",
+    "title": "Read Quality Distribution",
+    "track": "Bioinformatics Armory",
+    "domain": "bioinformatics-armory",
+    "dir_name": "Read Quality Distribution",
+    "wiki_slug": "read-quality-distribution",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Read%20Quality%20Distribution"
+  },
+  {
+    "id": "SUBO",
+    "title": "Suboptimal Local Alignment",
+    "track": "Bioinformatics Armory",
+    "domain": "bioinformatics-armory",
+    "dir_name": "Suboptimal Local Alignment",
+    "wiki_slug": "suboptimal-local-alignment",
+    "tier": "Intermediate",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Suboptimal%20Local%20Alignment"
+  },
+  {
+    "id": "INI4",
+    "title": "Conditions and Loops",
+    "track": "Python Village",
+    "domain": "python-village-and-utilities",
+    "dir_name": "Conditions and Loops",
+    "wiki_slug": "conditions-and-loops",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Conditions%20and%20Loops"
+  },
+  {
+    "id": "INI6",
+    "title": "Dictionaries",
+    "track": "Python Village",
+    "domain": "python-village-and-utilities",
+    "dir_name": "Dictionaries",
+    "wiki_slug": "dictionaries",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Dictionaries"
+  },
+  {
+    "id": "INI1",
+    "title": "Installing Python",
+    "track": "Python Village",
+    "domain": "python-village-and-utilities",
+    "dir_name": "Installing Python",
+    "wiki_slug": "installing-python",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Installing%20Python"
+  },
+  {
+    "id": "INI3",
+    "title": "Strings and Lists",
+    "track": "Python Village",
+    "domain": "python-village-and-utilities",
+    "dir_name": "Strings and Lists",
+    "wiki_slug": "strings-and-lists",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Strings%20and%20Lists"
+  },
+  {
+    "id": "INI2",
+    "title": "Variables and Some Arithmetic",
+    "track": "Python Village",
+    "domain": "python-village-and-utilities",
+    "dir_name": "Variables and Some Arithmetic",
+    "wiki_slug": "variables-and-some-arithmetic",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Variables%20and%20Some%20Arithmetic"
+  },
+  {
+    "id": "INI5",
+    "title": "Working with Files",
+    "track": "Python Village",
+    "domain": "python-village-and-utilities",
+    "dir_name": "Working with Files",
+    "wiki_slug": "working-with-files",
+    "tier": "Beginner",
+    "github_url": "https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/tree/main/Working%20with%20Files"
+  }
+]
