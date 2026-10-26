@@ -1,39 +1,163 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 90" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 180" width="100%" height="100%">
   <defs>
-    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <!-- Background Radial Gradient -->
+    <radialGradient id="spaceGrad" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="60%" stop-color="#090d16" />
+      <stop offset="100%" stop-color="#030712" />
+    </radialGradient>
+
+    <!-- Glowing Rim Gradients -->
+    <linearGradient id="rimGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="35%" stop-color="#06b6d4" />
+      <stop offset="70%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#f43f5e" />
+    </linearGradient>
+
+    <linearGradient id="dnaStrandA" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#00f2fe" />
       <stop offset="50%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+
+    <linearGradient id="dnaStrandB" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e" />
+      <stop offset="50%" stop-color="#ec4899" />
       <stop offset="100%" stop-color="#a855f7" />
     </linearGradient>
-    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+
+    <linearGradient id="textCyan" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38bdf8" />
       <stop offset="100%" stop-color="#06b6d4" />
     </linearGradient>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
+
+    <linearGradient id="textPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+
+    <!-- Glow Filters -->
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="intenseGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10" result="blur1" />
+      <feGaussianBlur stdDeviation="3" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur1" />
+        <feMergeNode in="blur2" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
     </filter>
   </defs>
 
-  <!-- Emblem Icon -->
-  <g transform="translate(10, 5)">
-    <rect width="80" height="80" rx="20" fill="#0b1120" stroke="url(#logoGrad)" stroke-width="2.5" />
-    <!-- DNA Curves -->
-    <path d="M 25,20 C 15,35 15,45 40,50 C 65,55 65,65 55,75" fill="none" stroke="#00f2fe" stroke-width="4" stroke-linecap="round" filter="url(#glow)" />
-    <path d="M 55,20 C 65,35 65,45 40,50 C 15,55 15,65 25,75" fill="none" stroke="#f43f5e" stroke-width="4" stroke-linecap="round" filter="url(#glow)" />
-    <!-- Base pair rungs -->
-    <line x1="26" y1="30" x2="54" y2="30" stroke="#38bdf8" stroke-width="2" stroke-dasharray="2 2" />
-    <line x1="24" y1="42" x2="56" y2="42" stroke="#ffffff" stroke-width="2" />
-    <line x1="24" y1="58" x2="56" y2="58" stroke="#ffffff" stroke-width="2" />
-    <line x1="26" y1="70" x2="54" y2="70" stroke="#f43f5e" stroke-width="2" stroke-dasharray="2 2" />
-    <circle cx="40" cy="50" r="4.5" fill="#34d399" filter="url(#glow)" />
+  <!-- Left Icon Emblem (Scale 0.31 centered at x=95, y=90) -->
+  <g transform="translate(15, 10) scale(0.31)">
+    <!-- Deep Obsidian Base Disk -->
+    <circle cx="256" cy="256" r="250" fill="url(#spaceGrad)" />
+    <!-- Tech Rings -->
+    <circle cx="256" cy="256" r="240" fill="none" stroke="#1e293b" stroke-width="3" />
+    <circle cx="256" cy="256" r="232" fill="none" stroke="url(#rimGrad)" stroke-width="4" opacity="0.85" />
+    <circle cx="256" cy="256" r="222" fill="none" stroke="#38bdf8" stroke-width="2" stroke-dasharray="6 8" opacity="0.5" />
+
+    <!-- De Bruijn & Matrix Grid -->
+    <g opacity="0.6">
+      <line x1="145" y1="160" x2="210" y2="105" stroke="#06b6d4" stroke-width="2" />
+      <line x1="210" y1="105" x2="302" y2="105" stroke="#38bdf8" stroke-width="2" />
+      <line x1="302" y1="105" x2="367" y2="160" stroke="#8b5cf6" stroke-width="2" />
+      <line x1="145" y1="352" x2="210" y2="407" stroke="#06b6d4" stroke-width="2" />
+      <line x1="210" y1="407" x2="302" y2="407" stroke="#38bdf8" stroke-width="2" />
+      <line x1="302" y1="407" x2="367" y2="352" stroke="#f43f5e" stroke-width="2" />
+      <line x1="145" y1="160" x2="145" y2="352" stroke="#10b981" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.4" />
+      <line x1="367" y1="160" x2="367" y2="352" stroke="#10b981" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.4" />
+    </g>
+
+    <!-- Base-Pair Rungs -->
+    <g stroke-linecap="round">
+      <line x1="190" y1="135" x2="322" y2="135" stroke="#38bdf8" stroke-width="4" stroke-dasharray="6 5" opacity="0.8" />
+      <circle cx="190" cy="135" r="7" fill="#00f2fe" filter="url(#softGlow)" />
+      <circle cx="256" cy="135" r="4" fill="#ffffff" />
+      <circle cx="322" cy="135" r="7" fill="#f43f5e" filter="url(#softGlow)" />
+
+      <line x1="160" y1="185" x2="352" y2="185" stroke="#60a5fa" stroke-width="4.5" stroke-dasharray="7 5" opacity="0.85" />
+      <circle cx="160" cy="185" r="8" fill="#00f2fe" filter="url(#softGlow)" />
+      <circle cx="256" cy="185" r="5" fill="#ffffff" />
+      <circle cx="352" cy="185" r="8" fill="#ec4899" filter="url(#softGlow)" />
+
+      <line x1="180" y1="230" x2="332" y2="230" stroke="#818cf8" stroke-width="5" opacity="0.9" />
+      <circle cx="180" cy="230" r="8.5" fill="#38bdf8" filter="url(#softGlow)" />
+      <circle cx="256" cy="230" r="5" fill="#ffffff" />
+      <circle cx="332" cy="230" r="8.5" fill="#f43f5e" filter="url(#softGlow)" />
+
+      <line x1="225" y1="256" x2="287" y2="256" stroke="#c084fc" stroke-width="4" stroke-dasharray="3 2" />
+
+      <line x1="332" y1="282" x2="180" y2="282" stroke="#818cf8" stroke-width="5" opacity="0.9" />
+      <circle cx="332" cy="282" r="8.5" fill="#00f2fe" filter="url(#softGlow)" />
+      <circle cx="256" cy="282" r="5" fill="#ffffff" />
+      <circle cx="180" cy="282" r="8.5" fill="#f43f5e" filter="url(#softGlow)" />
+
+      <line x1="352" y1="327" x2="160" y2="327" stroke="#60a5fa" stroke-width="4.5" stroke-dasharray="7 5" opacity="0.85" />
+      <circle cx="352" cy="327" r="8" fill="#38bdf8" filter="url(#softGlow)" />
+      <circle cx="256" cy="327" r="5" fill="#ffffff" />
+      <circle cx="160" cy="327" r="8" fill="#ec4899" filter="url(#softGlow)" />
+
+      <line x1="322" y1="377" x2="190" y2="377" stroke="#38bdf8" stroke-width="4" stroke-dasharray="6 5" opacity="0.8" />
+      <circle cx="322" cy="377" r="7" fill="#00f2fe" filter="url(#softGlow)" />
+      <circle cx="256" cy="377" r="4" fill="#ffffff" />
+      <circle cx="190" cy="377" r="7" fill="#f43f5e" filter="url(#softGlow)" />
+    </g>
+
+    <!-- DNA Strands -->
+    <path d="M 190,135 C 115,185 115,230 256,256 C 397,282 397,327 322,377" 
+          fill="none" stroke="url(#dnaStrandA)" stroke-width="12" stroke-linecap="round" filter="url(#intenseGlow)" />
+    <path d="M 190,135 C 115,185 115,230 256,256 C 397,282 397,327 322,377" 
+          fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" opacity="0.9" />
+
+    <path d="M 322,135 C 397,185 397,230 256,256 C 115,282 115,327 190,377" 
+          fill="none" stroke="url(#dnaStrandB)" stroke-width="12" stroke-linecap="round" filter="url(#intenseGlow)" />
+    <path d="M 322,135 C 397,185 397,230 256,256 C 115,282 115,327 190,377" 
+          fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" opacity="0.9" />
+
+    <!-- Center Node -->
+    <circle cx="256" cy="256" r="16" fill="#030712" stroke="url(#rimGrad)" stroke-width="3.5" />
+    <circle cx="256" cy="256" r="9" fill="#10b981" filter="url(#intenseGlow)" />
+    <circle cx="256" cy="256" r="4" fill="#ffffff" />
   </g>
 
-  <!-- Typography -->
-  <text x="105" y="45" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="800" fill="#f8fafc" letter-spacing="-0.5">
-    Suleiman<tspan fill="url(#textGrad)">Rosalind</tspan><tspan fill="#a855f7">Bioinformatics</tspan>
-  </text>
-  <text x="106" y="68" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#94a3b8" letter-spacing="2">
-    284/284 SOLVED • ALGORITHMIC COMPUTATIONAL BIOLOGY
-  </text>
+  <!-- Typography Brand Header -->
+  <g transform="translate(195, 0)">
+    <!-- Primary Title -->
+    <text x="0" y="68" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif" font-size="38" font-weight="800" fill="#f8fafc" letter-spacing="-0.5">
+      Suleiman<tspan fill="url(#textCyan)">Rosalind</tspan><tspan fill="url(#textPurple)">Bioinformatics</tspan>
+    </text>
+
+    <!-- Subtitle -->
+    <text x="2" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#94a3b8" letter-spacing="1.5">
+      ALGORITHMIC FOUNDATIONS OF COMPUTATIONAL BIOLOGY
+    </text>
+
+    <!-- Badge Pills Row -->
+    <g transform="translate(2, 122)">
+      <!-- Pill 1: 284/284 Solved -->
+      <rect x="0" y="0" width="165" height="26" rx="6" fill="rgba(16, 185, 129, 0.15)" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1" />
+      <circle cx="12" cy="13" r="4" fill="#10b981" />
+      <text x="24" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#34d399">284 / 284 SOLVED (100%)</text>
+
+      <!-- Pill 2: 5 Rosalind Tracks -->
+      <rect x="175" y="0" width="135" height="26" rx="6" fill="rgba(6, 182, 212, 0.15)" stroke="rgba(6, 182, 212, 0.4)" stroke-width="1" />
+      <text x="187" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#38bdf8">5 ROSALIND TRACKS</text>
+
+      <!-- Pill 3: 13 Algorithmic Domains -->
+      <rect x="320" y="0" width="165" height="26" rx="6" fill="rgba(168, 85, 247, 0.15)" stroke="rgba(168, 85, 247, 0.4)" stroke-width="1" />
+      <text x="332" y="17" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#c084fc">13 ALGORITHMIC DOMAINS</text>
+    </g>
+  </g>
 </svg>
