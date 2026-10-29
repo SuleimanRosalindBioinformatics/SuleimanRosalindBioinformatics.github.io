@@ -226,19 +226,27 @@ const App = (() => {
       <div style="background:var(--bg-input); padding:1rem; border-radius:var(--radius-md); border:1px solid var(--bg-card-border); margin-bottom:1.5rem; font-size:0.875rem;">
         <div style="margin-bottom:0.5rem;"><strong>Domain Classification:</strong> <span style="color:var(--cyan-primary);">${p.domain}</span></div>
         <div style="margin-bottom:0.5rem;"><strong>Local Directory:</strong> <code>${escapeHtml(p.dir_name)}</code></div>
-        <div><strong>Status:</strong> <span style="color:var(--green-primary); font-weight:bold;">100% Solved & Verified</span></div>
+        <div style="margin-bottom:0.5rem;"><strong>Status:</strong> <span style="color:var(--green-primary); font-weight:bold;">100% Solved &amp; Verified</span></div>
+        <div><strong>Codebase Access:</strong> <span style="color:#fca5a5; font-weight:bold;">Private 🔒 (Access by request)</span></div>
       </div>
 
-      <div style="margin-bottom:1.5rem;">
+      <div style="margin-bottom:1.25rem;">
         <h4 style="font-size:0.9rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--text-muted); margin-bottom:0.5rem;">Execution Command:</h4>
         <div style="background:rgba(0,0,0,0.4); padding:0.75rem 1rem; border-radius:var(--radius-sm); font-family:var(--font-mono); font-size:0.85rem; border:1px solid var(--bg-card-border); word-break:break-all;">
           python3 "${escapeHtml(p.dir_name)}/main.py"
         </div>
       </div>
 
+      <div style="background:rgba(239,68,68,0.08); border:1px solid rgba(239,68,68,0.3); border-radius:var(--radius-sm); padding:0.75rem 1rem; margin-bottom:1.5rem; font-size:0.8rem; color:#fca5a5;">
+        🔒 <strong>Private Access:</strong> Source codes, datasets (<code>rosalind_*.txt</code>) and wiki notes are private. To request repository access, contact: <a href="mailto:suleyman.hacizade1@gmail.com?subject=Access%20Request%20-%20Problem%20${p.id}" style="color:#38bdf8; text-decoration:underline; font-weight:600;">suleyman.hacizade1@gmail.com</a>
+      </div>
+
       <div style="display:flex; gap:0.75rem; flex-wrap:wrap;">
-        <a href="${p.github_url}" target="_blank" rel="noopener noreferrer" class="btn-primary" style="flex:1; justify-content:center;">
+        <a href="${p.github_url}" target="_blank" rel="noopener noreferrer" class="btn-secondary" style="flex:1; justify-content:center;">
           Open in GitHub Repository &rarr;
+        </a>
+        <a href="mailto:suleyman.hacizade1@gmail.com?subject=Access%20Request%20-%20Problem%20${p.id}" class="btn-primary" style="flex:1; justify-content:center; background:#ef4444; border-color:#dc2626;">
+          📧 Request Access via Email
         </a>
       </div>
     `;
