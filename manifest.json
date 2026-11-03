@@ -1,16 +1,23 @@
 {
-  "name": "SuleimanRosalindBioinformatics | Computational Biology Solutions Hub",
-  "short_name": "RosalindBioinformatics",
-  "description": "Interactive showcase and master catalog of 284 optimal solutions to Rosalind computational biology problems.",
+  "name": "SuleimanRosalindBioinformatics | 284/284 Solved Computational Biology Algorithms",
+  "short_name": "RosalindBioinfo",
+  "id": "/?source=pwa",
+  "description": "Academic-grade intelligence platform and interactive laboratory for all 284 Rosalind computational biology problems — dynamic programming, Eulerian assembly, Baum-Welch HMMs, phylogenetic trees, and mass spectrometry.",
   "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
+  "orientation": "any",
   "background_color": "#030712",
   "theme_color": "#06b6d4",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["education", "science", "utilities", "developer"],
   "icons": [
     {
       "src": "favicon.svg",
       "sizes": "any",
-      "type": "image/svg+xml"
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
     },
     {
       "src": "favicon.png",
@@ -21,6 +28,42 @@
       "src": "apple-touch-icon.png",
       "sizes": "180x180",
       "type": "image/png"
+    },
+    {
+      "src": "assets/logo-emblem.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Problems Explorer (284 Problems)",
+      "short_name": "Problems",
+      "description": "Browse and filter all 284 Rosalind problem solutions",
+      "url": "./problems/",
+      "icons": [{ "src": "favicon.png", "sizes": "64x64" }]
+    },
+    {
+      "name": "Live Bio-Algorithms Studio",
+      "short_name": "Studio",
+      "description": "Run in-browser DNA/RNA/protein sequence algorithms",
+      "url": "./studio/",
+      "icons": [{ "src": "favicon.png", "sizes": "64x64" }]
+    },
+    {
+      "name": "Algorithmic Syntheses",
+      "short_name": "Syntheses",
+      "description": "Read the 9 master mathematical domain syntheses",
+      "url": "./syntheses/",
+      "icons": [{ "src": "favicon.png", "sizes": "64x64" }]
+    },
+    {
+      "name": "Curriculum Roadmap",
+      "short_name": "Curriculum",
+      "description": "Follow the 3-Tier computational biology learning path",
+      "url": "./curriculum/",
+      "icons": [{ "src": "favicon.png", "sizes": "64x64" }]
     }
   ]
 }

@@ -1,0 +1,51 @@
+# ==============================================================================
+# SuleimanRosalindBioinformatics Robots Directive
+# Website: https://suleimanrosalindbioinformatics.github.io/
+# Author: Suleiman Hajizadeh
+# Purpose: Maximum Search Engine Optimization (SEO) & Comprehensive Indexing
+# ==============================================================================
+
+User-agent: *
+Allow: /
+Allow: /problems/
+Allow: /syntheses/
+Allow: /curriculum/
+Allow: /domains/
+Allow: /studio/
+Allow: /css/
+Allow: /js/
+Allow: /data/
+Allow: /assets/
+Allow: /sitemap.xml
+Allow: /manifest.json
+
+# Explicit rules for major search engine crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /assets/
+Allow: /favicon.png
+Allow: /apple-touch-icon.png
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Sitemap Indexing
+Sitemap: https://suleimanrosalindbioinformatics.github.io/sitemap.xml
+Host: https://suleimanrosalindbioinformatics.github.io

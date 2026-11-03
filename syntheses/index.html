@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cross-Cutting Algorithmic Syntheses | SuleimanRosalindBioinformatics</title>
+  
+  <meta name="description" content="In-depth mathematical and algorithmic syntheses in computational biology: Needleman-Wunsch & Hirschberg alignment, De Bruijn genome assembly, Baum-Welch HMMs, Neighbor-Joining trees, FM-Index, synteny 2-breaks, and mass spectrometry." />
+  <meta name="keywords" content="Computational Biology Syntheses, Bioinformatics Algorithms, Needleman-Wunsch, Smith-Waterman, Hirschberg Linear Space, Gotoh Affine Gaps, De Bruijn Graphs, Eulerian Path, Baum-Welch HMM, Viterbi Algorithm, Neighbor-Joining, UPGMA, Fitch-Sankoff, FM-Index, Burrows-Wheeler Transform, 2-Break Genome Rearrangements, Mass Spectrometry Peptides, Wright-Fisher Drift, Catalan RNA, Suleiman Hajizadeh" />
+  <meta name="author" content="Suleiman Hajizadeh" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large" />
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large" />
+  
+  <link rel="canonical" href="https://suleimanrosalindbioinformatics.github.io/syntheses/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="SuleimanRosalindBioinformatics" />
+  <meta property="og:url" content="https://suleimanrosalindbioinformatics.github.io/syntheses/" />
+  <meta property="og:title" content="Cross-Cutting Algorithmic Syntheses in Computational Biology" />
+  <meta property="og:description" content="9 Comprehensive mathematical domain syntheses unifying the 284 solved problems of computational biology into an academic knowledge graph." />
+  <meta property="og:image" content="https://suleimanrosalindbioinformatics.github.io/assets/logo-emblem.png" />
+  <meta property="og:image:width" content="1024" />
+  <meta property="og:image:height" content="1024" />
+  <meta property="og:image:alt" content="SuleimanRosalindBioinformatics Emblem" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@SuleimanHajizadeh" />
+  <meta name="twitter:creator" content="@SuleimanHajizadeh" />
+  <meta name="twitter:url" content="https://suleimanrosalindbioinformatics.github.io/syntheses/" />
+  <meta name="twitter:title" content="Cross-Cutting Algorithmic Syntheses | SuleimanRosalindBioinformatics" />
+  <meta name="twitter:description" content="9 Mathematical syntheses across alignment, assembly, HMMs, phylogenetics, mass spectrometry, and synteny." />
+  <meta name="twitter:image" content="https://suleimanrosalindbioinformatics.github.io/assets/logo-emblem.png" />
+
+  <!-- Icons -->
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+  <link rel="icon" type="image/png" sizes="64x64" href="../favicon.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png" />
+  <link rel="manifest" href="../manifest.json" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="../css/style.css" />
+
+  <!-- JSON-LD Structured Data Schema -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://suleimanrosalindbioinformatics.github.io/syntheses/#webpage",
+      "url": "https://suleimanrosalindbioinformatics.github.io/syntheses/",
+      "name": "Cross-Cutting Algorithmic Syntheses | SuleimanRosalindBioinformatics",
+      "description": "9 In-depth mathematical and algorithmic syntheses in computational biology \u2014 dynamic programming, De Bruijn graphs, complexity bounds, HMMs, phylogenetics, mass spectrometry, FM-Index, synteny 2-breaks, and population genetics.",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://suleimanrosalindbioinformatics.github.io/#website",
+        "name": "SuleimanRosalindBioinformatics",
+        "url": "https://suleimanrosalindbioinformatics.github.io/"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://suleimanrosalindbioinformatics.github.io/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Algorithmic Syntheses",
+            "item": "https://suleimanrosalindbioinformatics.github.io/syntheses/"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "ItemList",
+      "name": "Computational Biology Algorithmic Syntheses",
+      "numberOfItems": 9,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Dynamic Programming Alignment Paradigms",
+          "url": "https://suleimanrosalindbioinformatics.github.io/syntheses/#dynamic-programming-alignment",
+          "description": "Comprehensive mathematical taxonomy, recurrence relations, and algorithmic trade-offs across all 7 major pairwise sequence alignment variants in computational biology."
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Genome Assembly Paradigms: OLC vs De Bruijn",
+          "url": "https://suleimanrosalindbioinformatics.github.io/syntheses/#genome-assembly",
+          "description": "The computational paradigm shift from Overlap-Layout-Consensus (Hamiltonian path) to De Bruijn graph sequence assembly (Eulerian walk), plus paired-end $(k, d)$-mer gapped reconstruction."
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Complexity & Asymptotic Bounds Matrix",
+          "url": "https://suleimanrosalindbioinformatics.github.io/syntheses/#algorithmic-complexity",
+          "description": "Master taxonomy mapping all 284 solved problems to their asymptotic time bounds ($O(n)$ streaming scans, $O(n \\log n)$ divide-and-conquer, $O(nm)$ dynamic programming, $O(n^3)$ cubic RNA folding, and NP-complete heuristics)."
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Hidden Markov Models in Computational Biology",
+          "url": "https://suleimanrosalindbioinformatics.github.io/syntheses/#hidden-markov-models",
+          "description": "Unified mathematical treatment of the Three Classical HMM Problems: Evaluation (Forward-Backward $P(x)$), Decoding (Viterbi $\\pi^*$, Soft Decoding), and Parameter Learning (Baum-Welch EM), plus Profile HMMs for protein families."
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Phylogenetics & Tree Reconstruction Paradigms",
+          "url": "https://suleimanrosalindbioinformatics.github.io/syntheses/#phylogenetics-trees",
+          "description": "Comprehensive mathematical taxonomy of phylogenetic inference: additive trees, distance metrics, 4-point condition, UPGMA, Neighbor-Joining, Small Parsimony (Fitch-Sankoff), and split distances."
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Peptide Sequencing & Mass Spectrometry Synthesis",
+          "url": "https://suleimanrosalindbioinformatics.github.io/syntheses/#mass-spectrometry",
+          "description": "Tandem MS/MS formulations ($b$/$y$ ion series), branch-and-bound cyclopeptide sequencing, leaderboard beam search, spectral convolution, DAG spectrum graphs, and PSM dictionaries."
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "String Indexing & Pattern Matching Synthesis",
+          "url": "https://suleimanrosalindbioinformatics.github.io/syntheses/#string-indexing",
+          "description": "The full-text indexing hierarchy: Prefix/Suffix Tries, Suffix Trees (Ukkonen), Suffix Arrays, the Burrows-Wheeler Transform (BWT), and the FM-Index with $O(m)$ exact backward search and approximate matching."
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Genome Rearrangements & Synteny Synthesis",
+          "url": "https://suleimanrosalindbioinformatics.github.io/syntheses/#genome-rearrangements",
+          "description": "Signed permutations, Hannenhalli-Pevzner duality theorem, breakpoint graphs, cycle decomposition, and the universal 2-Break Distance Theorem ($d = b - c$) for multi-chromosomal karyotypes."
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "name": "Combinatorics & Population Genetics Synthesis",
+          "url": "https://suleimanrosalindbioinformatics.github.io/syntheses/#population-genetics",
+          "description": "Mendelian inheritance laws, Wright-Fisher Markovian genetic drift, Catalan/Motzkin non-crossing matchings in RNA secondary structure, and Nussinov/Zuker thermodynamic folding models."
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+<body id="top">
+  <div class="bg-atmosphere" aria-hidden="true">
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+    <div class="glow-orb orb-3"></div>
+  </div>
+
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <a href="../" class="brand-link" aria-label="SuleimanRosalindBioinformatics Home">
+        <img src="../assets/logo-icon.svg" alt="SuleimanRosalindBioinformatics Logo" class="brand-logo-img" />
+        <span>Suleiman<span class="brand-accent">Rosalind</span>Bioinformatics</span>
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="../" class="nav-link">Home</a></li>
+          <li><a href="../problems/" class="nav-link">Problems (284)</a></li>
+          <li><a href="../syntheses/" class="nav-link active">Syntheses (9)</a></li>
+          <li><a href="../curriculum/" class="nav-link">Curriculum</a></li>
+          <li><a href="../domains/" class="nav-link">Domains</a></li>
+          <li><a href="../studio/" class="nav-link">Live Studio</a></li>
+          <li><a href="../#ecosystem" class="nav-link">Ecosystem</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="mailto:suleyman.hacizade1@gmail.com?subject=Access%20Request%20-%20SuleimanRosalindBioinformatics" class="btn-secondary" style="padding: 0.5rem 0.85rem; font-size: 0.82rem; border-color: rgba(239, 68, 68, 0.4); color: #fca5a5;">
+          🔒 Request Access
+        </a>
+        <a href="https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics" target="_blank" rel="noopener noreferrer" class="btn-secondary" style="padding: 0.5rem 1rem; font-size: 0.85rem;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+          </svg>
+          Repo
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container" style="padding-top: 3rem; padding-bottom: 5rem;">
+    <!-- Breadcrumb -->
+    <nav aria-label="Breadcrumb" style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.5rem;">
+      <a href="../" style="color: var(--cyan-primary); text-decoration: none;">Home</a> &gt; 
+      <span style="color: var(--text-main);">Cross-Cutting Algorithmic Syntheses</span>
+    </nav>
+
+    <div class="section-header" style="text-align: left; margin-bottom: 2.5rem;">
+      <span class="section-tag">Compounding LLM Wiki Taxonomy</span>
+      <h1 class="section-title" style="font-size: 2.25rem;">9 Master Domain Syntheses in Computational Biology</h1>
+      <p class="section-subtitle" style="max-width: 900px; margin: 0.5rem 0 0;">
+        Deep mathematical analyses, recurrence relations, and algorithmic trade-offs compiled into the persistent LLM Wiki, bridging all 284 solved Rosalind challenges into a unified academic knowledge architecture.
+      </p>
+    </div>
+
+    <!-- Quick Table of Contents Jump Grid -->
+    <div style="background: var(--bg-card); padding: 1.25rem 1.5rem; border-radius: var(--radius-md); border: 1px solid var(--bg-card-border); margin-bottom: 3rem;">
+      <h3 style="font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); margin-bottom: 0.85rem;">Syntheses Table of Contents:</h3>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 0.6rem;">
+        <a href="#dynamic-programming-alignment" style="font-size: 0.85rem; color: var(--cyan-primary); text-decoration: none; padding: 0.35rem 0.6rem; border-radius: 4px; background: rgba(6,182,212,0.08); display: flex; align-items: center; gap: 0.4rem;"><span>&rarr;</span> <span>Dynamic Programming Alignment Paradigms</span></a><a href="#genome-assembly" style="font-size: 0.85rem; color: var(--cyan-primary); text-decoration: none; padding: 0.35rem 0.6rem; border-radius: 4px; background: rgba(6,182,212,0.08); display: flex; align-items: center; gap: 0.4rem;"><span>&rarr;</span> <span>Genome Assembly Paradigms: OLC vs De Bruijn</span></a><a href="#algorithmic-complexity" style="font-size: 0.85rem; color: var(--cyan-primary); text-decoration: none; padding: 0.35rem 0.6rem; border-radius: 4px; background: rgba(6,182,212,0.08); display: flex; align-items: center; gap: 0.4rem;"><span>&rarr;</span> <span>Complexity & Asymptotic Bounds Matrix</span></a><a href="#hidden-markov-models" style="font-size: 0.85rem; color: var(--cyan-primary); text-decoration: none; padding: 0.35rem 0.6rem; border-radius: 4px; background: rgba(6,182,212,0.08); display: flex; align-items: center; gap: 0.4rem;"><span>&rarr;</span> <span>Hidden Markov Models in Computational Biology</span></a><a href="#phylogenetics-trees" style="font-size: 0.85rem; color: var(--cyan-primary); text-decoration: none; padding: 0.35rem 0.6rem; border-radius: 4px; background: rgba(6,182,212,0.08); display: flex; align-items: center; gap: 0.4rem;"><span>&rarr;</span> <span>Phylogenetics & Tree Reconstruction Paradigms</span></a><a href="#mass-spectrometry" style="font-size: 0.85rem; color: var(--cyan-primary); text-decoration: none; padding: 0.35rem 0.6rem; border-radius: 4px; background: rgba(6,182,212,0.08); display: flex; align-items: center; gap: 0.4rem;"><span>&rarr;</span> <span>Peptide Sequencing & Mass Spectrometry Synthesis</span></a><a href="#string-indexing" style="font-size: 0.85rem; color: var(--cyan-primary); text-decoration: none; padding: 0.35rem 0.6rem; border-radius: 4px; background: rgba(6,182,212,0.08); display: flex; align-items: center; gap: 0.4rem;"><span>&rarr;</span> <span>String Indexing & Pattern Matching Synthesis</span></a><a href="#genome-rearrangements" style="font-size: 0.85rem; color: var(--cyan-primary); text-decoration: none; padding: 0.35rem 0.6rem; border-radius: 4px; background: rgba(6,182,212,0.08); display: flex; align-items: center; gap: 0.4rem;"><span>&rarr;</span> <span>Genome Rearrangements & Synteny Synthesis</span></a><a href="#population-genetics" style="font-size: 0.85rem; color: var(--cyan-primary); text-decoration: none; padding: 0.35rem 0.6rem; border-radius: 4px; background: rgba(6,182,212,0.08); display: flex; align-items: center; gap: 0.4rem;"><span>&rarr;</span> <span>Combinatorics & Population Genetics Synthesis</span></a>
+      </div>
+    </div>
+
+    <!-- Render All 9 Syntheses Cards -->
+    <div id="syntheses-container">
+      
+    <article id="dynamic-programming-alignment" class="roadmap-card" style="border-left: 5px solid var(--cyan-primary); margin-bottom: 2.5rem; padding: 2rem; background: var(--bg-card); border-radius: var(--radius-md); border: 1px solid var(--bg-card-border); border-left-width: 5px;">
+      <div style="font-size: 0.8rem; font-weight: 800; color: var(--cyan-primary); margin-bottom: 0.5rem; letter-spacing: 0.05em; text-transform: uppercase;">ALGORITHM TAXONOMY</div>
+      <h2 style="font-size: 1.6rem; font-weight: 800; margin-bottom: 0.85rem; color: var(--text-main); line-height: 1.3;">Dynamic Programming Alignment Paradigms</h2>
+      <p style="font-size: 1rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 1.25rem;">Comprehensive mathematical taxonomy, recurrence relations, and algorithmic trade-offs across all 7 major pairwise sequence alignment variants in computational biology.</p>
+      
+      <div style="background: rgba(0,0,0,0.25); padding: 1.25rem 1.5rem; border-radius: var(--radius-sm); border: 1px solid var(--bg-card-border); margin-bottom: 1.25rem;">
+        <h4 style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-subtle); margin-bottom: 0.75rem;">Theoretical Framework & Paradigms:</h4>
+        <ul style="padding-left: 1.25rem; margin-bottom: 0;">
+          <li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Global Alignment (Needleman-Wunsch)</strong>: Full end-to-end alignment using Bellman's principle of optimality with match/mismatch scoring matrices (BLOSUM62, PAM250).</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Local Alignment (Smith-Waterman)</strong>: Domain and motif identification with free restarts, terminating traceback at 0.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Fitting Alignment</strong>: Short sequence fit entirely within a larger chromosome without terminal overhang penalties on the target.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Overlap Alignment</strong>: Suffix-to-prefix overlap detection essential for Overlap-Layout-Consensus (OLC) de novo fragment assembly.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Semiglobal Alignment</strong>: Complete sequence alignment with free terminal overhang gaps at both 5' and 3' flanks.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Gotoh Affine Gap Penalties</strong>: 3-state DP state-machine (M, Ix, Iy) modeling distinct gap-opening and gap-extension penalties in $O(nm)$ time.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Hirschberg Linear Space Alignment</strong>: Divide-and-conquer space reduction computing exact global alignments in strictly linear $O(n+m)$ memory via optimal middle-edge detection.</li>
+        </ul>
+      </div>
+
+      <div style="margin-bottom: 1.25rem;">
+        <span style="font-size: 0.8rem; font-weight: 700; color: var(--text-subtle); text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Representative Rosalind Problems:</span>
+        <div style="display: flex; gap: 0.4rem; flex-wrap: wrap;">
+          <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA5E</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">GLOB</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA5F</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">LOCA</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA5H</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">FIT</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA5I</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">OALP</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">SMGB</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA5J</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">GAFF</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">LAFF</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA5K</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA5L</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">EDTA</span>
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center; border-top: 1px solid var(--bg-card-border); padding-top: 1rem;">
+        <a href="https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/blob/main/wiki/dynamic-programming-alignment-paradigms.md" target="_blank" rel="noopener noreferrer" class="btn-primary" style="padding: 0.45rem 1rem; font-size: 0.85rem; text-decoration: none;">
+          Read Full Wiki Synthesis &rarr;
+        </a>
+        <a href="mailto:suleyman.hacizade1@gmail.com?subject=Access%20Request%20-%20Synthesis%20dynamic-programming-alignment" class="btn-secondary" style="padding: 0.45rem 0.85rem; font-size: 0.82rem; color: #fca5a5; border-color: rgba(239,68,68,0.3); text-decoration: none;">
+          🔒 Request Code Access
+        </a>
+      </div>
+    </article>
+    
+
+    <article id="genome-assembly" class="roadmap-card" style="border-left: 5px solid var(--green-primary); margin-bottom: 2.5rem; padding: 2rem; background: var(--bg-card); border-radius: var(--radius-md); border: 1px solid var(--bg-card-border); border-left-width: 5px;">
+      <div style="font-size: 0.8rem; font-weight: 800; color: var(--green-primary); margin-bottom: 0.5rem; letter-spacing: 0.05em; text-transform: uppercase;">GRAPH THEORY SHIFT</div>
+      <h2 style="font-size: 1.6rem; font-weight: 800; margin-bottom: 0.85rem; color: var(--text-main); line-height: 1.3;">Genome Assembly Paradigms: OLC vs De Bruijn</h2>
+      <p style="font-size: 1rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 1.25rem;">The computational paradigm shift from Overlap-Layout-Consensus (Hamiltonian path) to De Bruijn graph sequence assembly (Eulerian walk), plus paired-end $(k, d)$-mer gapped reconstruction.</p>
+      
+      <div style="background: rgba(0,0,0,0.25); padding: 1.25rem 1.5rem; border-radius: var(--radius-sm); border: 1px solid var(--bg-card-border); margin-bottom: 1.25rem;">
+        <h4 style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-subtle); margin-bottom: 0.75rem;">Theoretical Framework & Paradigms:</h4>
+        <ul style="padding-left: 1.25rem; margin-bottom: 0;">
+          <li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Overlap-Layout-Consensus (OLC)</strong>: Reads form vertices, overlaps form edges. Assembly maps to finding a Hamiltonian path visiting every vertex exactly once — an NP-complete problem intractable for high-throughput short reads.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>De Bruijn Graphs (DBG)</strong>: Reads are shredded into $(k-1)$-mer vertices connected by $k$-mer directed edges. Assembly maps to finding an Eulerian path visiting every edge exactly once — solvable in strictly linear $O(V+E)$ time using Hierholzer's algorithm.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Gapped De Bruijn Graphs & Paired Reads</strong>: Utilizing $(k, d)$-mer paired-end reads to resolve genomic repetitive elements larger than single read lengths.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Contig Generation & Bubble Popping</strong>: Non-branching path maximal traversal and heuristic error correction in sequencing read sets.</li>
+        </ul>
+      </div>
+
+      <div style="margin-bottom: 1.25rem;">
+        <span style="font-size: 0.8rem; font-weight: 700; color: var(--text-subtle); text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Representative Rosalind Problems:</span>
+        <div style="display: flex; gap: 0.4rem; flex-wrap: wrap;">
+          <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA3A</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA3B</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA3C</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA3D</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA3E</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA3F</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA3G</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA3H</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA3I</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA3J</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA3K</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA3L</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA3M</span>
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center; border-top: 1px solid var(--bg-card-border); padding-top: 1rem;">
+        <a href="https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/blob/main/wiki/genome-assembly-paradigms-comparative.md" target="_blank" rel="noopener noreferrer" class="btn-primary" style="padding: 0.45rem 1rem; font-size: 0.85rem; text-decoration: none;">
+          Read Full Wiki Synthesis &rarr;
+        </a>
+        <a href="mailto:suleyman.hacizade1@gmail.com?subject=Access%20Request%20-%20Synthesis%20genome-assembly" class="btn-secondary" style="padding: 0.45rem 0.85rem; font-size: 0.82rem; color: #fca5a5; border-color: rgba(239,68,68,0.3); text-decoration: none;">
+          🔒 Request Code Access
+        </a>
+      </div>
+    </article>
+    
+
+    <article id="algorithmic-complexity" class="roadmap-card" style="border-left: 5px solid var(--purple-primary); margin-bottom: 2.5rem; padding: 2rem; background: var(--bg-card); border-radius: var(--radius-md); border: 1px solid var(--bg-card-border); border-left-width: 5px;">
+      <div style="font-size: 0.8rem; font-weight: 800; color: var(--purple-primary); margin-bottom: 0.5rem; letter-spacing: 0.05em; text-transform: uppercase;">COMPUTATIONAL COMPLEXITY</div>
+      <h2 style="font-size: 1.6rem; font-weight: 800; margin-bottom: 0.85rem; color: var(--text-main); line-height: 1.3;">Complexity & Asymptotic Bounds Matrix</h2>
+      <p style="font-size: 1rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 1.25rem;">Master taxonomy mapping all 284 solved problems to their asymptotic time bounds ($O(n)$ streaming scans, $O(n \log n)$ divide-and-conquer, $O(nm)$ dynamic programming, $O(n^3)$ cubic RNA folding, and NP-complete heuristics).</p>
+      
+      <div style="background: rgba(0,0,0,0.25); padding: 1.25rem 1.5rem; border-radius: var(--radius-sm); border: 1px solid var(--bg-card-border); margin-bottom: 1.25rem;">
+        <h4 style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-subtle); margin-bottom: 0.75rem;">Theoretical Framework & Paradigms:</h4>
+        <ul style="padding-left: 1.25rem; margin-bottom: 0;">
+          <li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Linear Time $O(n)$</strong>: Frequency arrays, single-pass nucleic acid counting, GC skew calculation, KMP prefix function matching, and 2-break distance computations.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Log-Linear Time $O(n \log n)$</strong>: Suffix array construction, divide-and-conquer inversions, sorting, and geometric interval queries.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Quadratic Time $O(nm)$</strong>: Needleman-Wunsch, Smith-Waterman, Gotoh affine alignment, distance matrix computations, and spectral convolution.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Cubic Time $O(n^3)$</strong>: Nussinov RNA secondary structure base-pair maximization, Zuker thermodynamic folding, and Floyd-Warshall all-pairs shortest paths.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>NP-Hard / Exponential Heuristics</strong>: Multiple sequence alignment (SP-score), large parsimony (NNI tree rearrangements), and median string search.</li>
+        </ul>
+      </div>
+
+      <div style="margin-bottom: 1.25rem;">
+        <span style="font-size: 0.8rem; font-weight: 700; color: var(--text-subtle); text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Representative Rosalind Problems:</span>
+        <div style="display: flex; gap: 0.4rem; flex-wrap: wrap;">
+          <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">DNA</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">RNA</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">REVC</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">HAMM</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">KMP</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA9G</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">GLOB</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">CAT</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">MOTZ</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA5M</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA7E</span>
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center; border-top: 1px solid var(--bg-card-border); padding-top: 1rem;">
+        <a href="https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/blob/main/wiki/algorithmic-complexity-and-bounds-matrix.md" target="_blank" rel="noopener noreferrer" class="btn-primary" style="padding: 0.45rem 1rem; font-size: 0.85rem; text-decoration: none;">
+          Read Full Wiki Synthesis &rarr;
+        </a>
+        <a href="mailto:suleyman.hacizade1@gmail.com?subject=Access%20Request%20-%20Synthesis%20algorithmic-complexity" class="btn-secondary" style="padding: 0.45rem 0.85rem; font-size: 0.82rem; color: #fca5a5; border-color: rgba(239,68,68,0.3); text-decoration: none;">
+          🔒 Request Code Access
+        </a>
+      </div>
+    </article>
+    
+
+    <article id="hidden-markov-models" class="roadmap-card" style="border-left: 5px solid var(--amber-primary); margin-bottom: 2.5rem; padding: 2rem; background: var(--bg-card); border-radius: var(--radius-md); border: 1px solid var(--bg-card-border); border-left-width: 5px;">
+      <div style="font-size: 0.8rem; font-weight: 800; color: var(--amber-primary); margin-bottom: 0.5rem; letter-spacing: 0.05em; text-transform: uppercase;">STOCHASTIC DECODING</div>
+      <h2 style="font-size: 1.6rem; font-weight: 800; margin-bottom: 0.85rem; color: var(--text-main); line-height: 1.3;">Hidden Markov Models in Computational Biology</h2>
+      <p style="font-size: 1rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 1.25rem;">Unified mathematical treatment of the Three Classical HMM Problems: Evaluation (Forward-Backward $P(x)$), Decoding (Viterbi $\pi^*$, Soft Decoding), and Parameter Learning (Baum-Welch EM), plus Profile HMMs for protein families.</p>
+      
+      <div style="background: rgba(0,0,0,0.25); padding: 1.25rem 1.5rem; border-radius: var(--radius-sm); border: 1px solid var(--bg-card-border); margin-bottom: 1.25rem;">
+        <h4 style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-subtle); margin-bottom: 0.75rem;">Theoretical Framework & Paradigms:</h4>
+        <ul style="padding-left: 1.25rem; margin-bottom: 0;">
+          <li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>The Evaluation Problem</strong>: Computing likelihood $P(x)$ of an emitted sequence via the Forward algorithm $\alpha_k(i)$ and Backward algorithm $\beta_k(i)$.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>The Decoding Problem</strong>: Viterbi dynamic programming recurrence $\max_k$ identifying the globally optimal hidden state sequence $\pi^* = \arg\max_\pi P(x, \pi)$ in $O(|Q|^2 \cdot n)$ time.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Soft Decoding & Posterior Probabilities</strong>: Calculating $P(\pi_i = k \mid x) = \frac{\alpha_k(i) \cdot \beta_k(i)}{P(x)}$ to assess state confidence.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Parameter Learning (Baum-Welch EM)</strong>: Expectation-Maximization iterative updating of transition probabilities $A_{kl}$ and emission probabilities $E_k(b)$.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Profile HMMs (Krogh Architecture)</strong>: Match ($M_j$), Insert ($I_j$), and Delete ($D_j$) states with affine gaps modeling biological protein domain families and pseudocount regularizations.</li>
+        </ul>
+      </div>
+
+      <div style="margin-bottom: 1.25rem;">
+        <span style="font-size: 0.8rem; font-weight: 700; color: var(--text-subtle); text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Representative Rosalind Problems:</span>
+        <div style="display: flex; gap: 0.4rem; flex-wrap: wrap;">
+          <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA10A</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA10B</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA10C</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA10D</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA10E</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA10F</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA10G</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA10H</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA10I</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA10J</span>
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center; border-top: 1px solid var(--bg-card-border); padding-top: 1rem;">
+        <a href="https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/blob/main/wiki/hidden-markov-models-in-computational-biology.md" target="_blank" rel="noopener noreferrer" class="btn-primary" style="padding: 0.45rem 1rem; font-size: 0.85rem; text-decoration: none;">
+          Read Full Wiki Synthesis &rarr;
+        </a>
+        <a href="mailto:suleyman.hacizade1@gmail.com?subject=Access%20Request%20-%20Synthesis%20hidden-markov-models" class="btn-secondary" style="padding: 0.45rem 0.85rem; font-size: 0.82rem; color: #fca5a5; border-color: rgba(239,68,68,0.3); text-decoration: none;">
+          🔒 Request Code Access
+        </a>
+      </div>
+    </article>
+    
+
+    <article id="phylogenetics-trees" class="roadmap-card" style="border-left: 5px solid #38bdf8; margin-bottom: 2.5rem; padding: 2rem; background: var(--bg-card); border-radius: var(--radius-md); border: 1px solid var(--bg-card-border); border-left-width: 5px;">
+      <div style="font-size: 0.8rem; font-weight: 800; color: #38bdf8; margin-bottom: 0.5rem; letter-spacing: 0.05em; text-transform: uppercase;">EVOLUTIONARY INFERENCE</div>
+      <h2 style="font-size: 1.6rem; font-weight: 800; margin-bottom: 0.85rem; color: var(--text-main); line-height: 1.3;">Phylogenetics & Tree Reconstruction Paradigms</h2>
+      <p style="font-size: 1rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 1.25rem;">Comprehensive mathematical taxonomy of phylogenetic inference: additive trees, distance metrics, 4-point condition, UPGMA, Neighbor-Joining, Small Parsimony (Fitch-Sankoff), and split distances.</p>
+      
+      <div style="background: rgba(0,0,0,0.25); padding: 1.25rem 1.5rem; border-radius: var(--radius-sm); border: 1px solid var(--bg-card-border); margin-bottom: 1.25rem;">
+        <h4 style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-subtle); margin-bottom: 0.75rem;">Theoretical Framework & Paradigms:</h4>
+        <ul style="padding-left: 1.25rem; margin-bottom: 0;">
+          <li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Additive Metric Spaces & 4-Point Condition</strong>: Additive distance matrix properties where bunched sums satisfy Buneman's 4-point condition for tree compatibility.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Distance-Based Reconstruction</strong>: UPGMA (ultrametric molecular clock) and Saitou-Nei Neighbor-Joining (NJ) eliminating star trees via rate-corrected distances $D_{ij}^*$.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Small Parsimony (Fixed Topology)</strong>: Fitch's set-intersection algorithm for unit weights and Sankoff's dynamic programming recurrence for arbitrary cost matrices.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Large Parsimony (Topology Search)</strong>: Nearest Neighbor Interchange (NNI) heuristics exploring the superexponential space of unrooted binary trees $(2n - 5)!!$.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Phylogenetic Distances & Splits</strong>: Robinson-Foulds distance and split distances measuring topological dissimilarity between rival evolutionary hypotheses.</li>
+        </ul>
+      </div>
+
+      <div style="margin-bottom: 1.25rem;">
+        <span style="font-size: 0.8rem; font-weight: 700; color: var(--text-subtle); text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Representative Rosalind Problems:</span>
+        <div style="display: flex; gap: 0.4rem; flex-wrap: wrap;">
+          <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA7A</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA7B</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA7C</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA7D</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA7E</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA7F</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA7G</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">CKEV</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">NKTR</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">CHTR</span>
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center; border-top: 1px solid var(--bg-card-border); padding-top: 1rem;">
+        <a href="https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/blob/main/wiki/phylogenetics-tree-reconstruction-paradigms.md" target="_blank" rel="noopener noreferrer" class="btn-primary" style="padding: 0.45rem 1rem; font-size: 0.85rem; text-decoration: none;">
+          Read Full Wiki Synthesis &rarr;
+        </a>
+        <a href="mailto:suleyman.hacizade1@gmail.com?subject=Access%20Request%20-%20Synthesis%20phylogenetics-trees" class="btn-secondary" style="padding: 0.45rem 0.85rem; font-size: 0.82rem; color: #fca5a5; border-color: rgba(239,68,68,0.3); text-decoration: none;">
+          🔒 Request Code Access
+        </a>
+      </div>
+    </article>
+    
+
+    <article id="mass-spectrometry" class="roadmap-card" style="border-left: 5px solid #f43f5e; margin-bottom: 2.5rem; padding: 2rem; background: var(--bg-card); border-radius: var(--radius-md); border: 1px solid var(--bg-card-border); border-left-width: 5px;">
+      <div style="font-size: 0.8rem; font-weight: 800; color: #f43f5e; margin-bottom: 0.5rem; letter-spacing: 0.05em; text-transform: uppercase;">PROTEOMICS & SPECTROMETRY</div>
+      <h2 style="font-size: 1.6rem; font-weight: 800; margin-bottom: 0.85rem; color: var(--text-main); line-height: 1.3;">Peptide Sequencing & Mass Spectrometry Synthesis</h2>
+      <p style="font-size: 1rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 1.25rem;">Tandem MS/MS formulations ($b$/$y$ ion series), branch-and-bound cyclopeptide sequencing, leaderboard beam search, spectral convolution, DAG spectrum graphs, and PSM dictionaries.</p>
+      
+      <div style="background: rgba(0,0,0,0.25); padding: 1.25rem 1.5rem; border-radius: var(--radius-sm); border: 1px solid var(--bg-card-border); margin-bottom: 1.25rem;">
+        <h4 style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-subtle); margin-bottom: 0.75rem;">Theoretical Framework & Paradigms:</h4>
+        <ul style="padding-left: 1.25rem; margin-bottom: 0;">
+          <li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Ion Series Fragmentation</strong>: Theoretical masses of $b$-ions (N-terminus) and $y$-ions (C-terminus) under collision-induced dissociation (CID).</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Branch-and-Bound Cyclopeptide Sequencing</strong>: Exact de novo peptide sequencing for idealized, noise-free spectra pruning non-matching prefixes.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Leaderboard Beam Search</strong>: Robust heuristic sequencing with leaderboard trimming (top $N$ candidates with ties) on experimental spectra with missing/noise peaks.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Spectral Convolution</strong>: Pairwise peak mass difference multiset identifying constituent amino acids without prior alphabet assumptions.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Spectrum Graph DAGs</strong>: Longest-path dynamic programming on directed acyclic spectrum graphs to reconstruct optimal amino acid paths in $O(V+E)$.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Spectral Dictionaries & PTM Alignment</strong>: DP algorithms computing dictionary size $N(m, t)$ and $p$-value statistical significance for Peptide-Spectrum Matches.</li>
+        </ul>
+      </div>
+
+      <div style="margin-bottom: 1.25rem;">
+        <span style="font-size: 0.8rem; font-weight: 700; color: var(--text-subtle); text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Representative Rosalind Problems:</span>
+        <div style="display: flex; gap: 0.4rem; flex-wrap: wrap;">
+          <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA4A</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA4B</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA4C</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA4D</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA4E</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA4F</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA4G</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA4H</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA4L</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA11A</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA11B</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA11H</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA11I</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA11J</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">SPEC</span>
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center; border-top: 1px solid var(--bg-card-border); padding-top: 1rem;">
+        <a href="https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/blob/main/wiki/peptide-sequencing-mass-spectrometry-synthesis.md" target="_blank" rel="noopener noreferrer" class="btn-primary" style="padding: 0.45rem 1rem; font-size: 0.85rem; text-decoration: none;">
+          Read Full Wiki Synthesis &rarr;
+        </a>
+        <a href="mailto:suleyman.hacizade1@gmail.com?subject=Access%20Request%20-%20Synthesis%20mass-spectrometry" class="btn-secondary" style="padding: 0.45rem 0.85rem; font-size: 0.82rem; color: #fca5a5; border-color: rgba(239,68,68,0.3); text-decoration: none;">
+          🔒 Request Code Access
+        </a>
+      </div>
+    </article>
+    
+
+    <article id="string-indexing" class="roadmap-card" style="border-left: 5px solid #10b981; margin-bottom: 2.5rem; padding: 2rem; background: var(--bg-card); border-radius: var(--radius-md); border: 1px solid var(--bg-card-border); border-left-width: 5px;">
+      <div style="font-size: 0.8rem; font-weight: 800; color: #10b981; margin-bottom: 0.5rem; letter-spacing: 0.05em; text-transform: uppercase;">FULL-TEXT INDEXING</div>
+      <h2 style="font-size: 1.6rem; font-weight: 800; margin-bottom: 0.85rem; color: var(--text-main); line-height: 1.3;">String Indexing & Pattern Matching Synthesis</h2>
+      <p style="font-size: 1rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 1.25rem;">The full-text indexing hierarchy: Prefix/Suffix Tries, Suffix Trees (Ukkonen), Suffix Arrays, the Burrows-Wheeler Transform (BWT), and the FM-Index with $O(m)$ exact backward search and approximate matching.</p>
+      
+      <div style="background: rgba(0,0,0,0.25); padding: 1.25rem 1.5rem; border-radius: var(--radius-sm); border: 1px solid var(--bg-card-border); margin-bottom: 1.25rem;">
+        <h4 style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-subtle); margin-bottom: 0.75rem;">Theoretical Framework & Paradigms:</h4>
+        <ul style="padding-left: 1.25rem; margin-bottom: 0;">
+          <li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Suffix Trees</strong>: Compact tree of all suffixes storing edge intervals $(start, end)$ in $O(n)$ space; solves exact pattern queries in $O(m)$ time.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Suffix Arrays (SA)</strong>: Lexicographically sorted array of suffix starting positions. Binary search matches patterns in $O(m \log n)$ with $5\times$ lower memory than Suffix Trees.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Burrows-Wheeler Transform (BWT)</strong>: Reversible permutation sorting cyclic rotations, concentrating character runs for maximum data compression.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Last-to-First (LF) Mapping</strong>: Property enabling exact backward string reconstruction and search directly within compressed BWT space.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>The FM-Index (BetterBWMatching)</strong>: Combines BWT, LF-mapping, and checkpointed rank vectors to query arbitrary patterns in $O(m)$ time independent of genome length.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Approximate Search</strong>: Seed-and-extend via the Pigeonhole Principle ($k+1$ partitions) and recursive backtracking on BWT intervals.</li>
+        </ul>
+      </div>
+
+      <div style="margin-bottom: 1.25rem;">
+        <span style="font-size: 0.8rem; font-weight: 700; color: var(--text-subtle); text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Representative Rosalind Problems:</span>
+        <div style="display: flex; gap: 0.4rem; flex-wrap: wrap;">
+          <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA9A</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA9B</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA9C</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA9D</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA9G</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA9H</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA9I</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA9J</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA9K</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA9L</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA9M</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA9N</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA9O</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA9Q</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA9R</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">KMP</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">SUF</span>
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center; border-top: 1px solid var(--bg-card-border); padding-top: 1rem;">
+        <a href="https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/blob/main/wiki/string-indexing-and-pattern-matching-synthesis.md" target="_blank" rel="noopener noreferrer" class="btn-primary" style="padding: 0.45rem 1rem; font-size: 0.85rem; text-decoration: none;">
+          Read Full Wiki Synthesis &rarr;
+        </a>
+        <a href="mailto:suleyman.hacizade1@gmail.com?subject=Access%20Request%20-%20Synthesis%20string-indexing" class="btn-secondary" style="padding: 0.45rem 0.85rem; font-size: 0.82rem; color: #fca5a5; border-color: rgba(239,68,68,0.3); text-decoration: none;">
+          🔒 Request Code Access
+        </a>
+      </div>
+    </article>
+    
+
+    <article id="genome-rearrangements" class="roadmap-card" style="border-left: 5px solid #8b5cf6; margin-bottom: 2.5rem; padding: 2rem; background: var(--bg-card); border-radius: var(--radius-md); border: 1px solid var(--bg-card-border); border-left-width: 5px;">
+      <div style="font-size: 0.8rem; font-weight: 800; color: #8b5cf6; margin-bottom: 0.5rem; letter-spacing: 0.05em; text-transform: uppercase;">STRUCTURAL GENOMICS</div>
+      <h2 style="font-size: 1.6rem; font-weight: 800; margin-bottom: 0.85rem; color: var(--text-main); line-height: 1.3;">Genome Rearrangements & Synteny Synthesis</h2>
+      <p style="font-size: 1rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 1.25rem;">Signed permutations, Hannenhalli-Pevzner duality theorem, breakpoint graphs, cycle decomposition, and the universal 2-Break Distance Theorem ($d = b - c$) for multi-chromosomal karyotypes.</p>
+      
+      <div style="background: rgba(0,0,0,0.25); padding: 1.25rem 1.5rem; border-radius: var(--radius-sm); border: 1px solid var(--bg-card-border); margin-bottom: 1.25rem;">
+        <h4 style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-subtle); margin-bottom: 0.75rem;">Theoretical Framework & Paradigms:</h4>
+        <ul style="padding-left: 1.25rem; margin-bottom: 0;">
+          <li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Synteny Blocks & Signed Permutations</strong>: Modeling chromosomal gene orders with signed integers $\pm \pi_i$ representing strand orientations.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Breakpoint Analysis</strong>: Identifying discontinuities in synteny adjacencies; proving every reversal can reduce at most 2 breakpoints.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>The Hannenhalli-Pevzner Theorem</strong>: Transforming signed permutation sorting into alternating cycle decomposition of the Breakpoint Graph $G(P, Q)$.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>2-Break Operations</strong>: Universal graph operation replacing two edges with two rewired edges, unifying reversals, translocations, fusions, and fissions.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>The 2-Break Distance Theorem</strong>: Strictly linear $O(n)$ computation of evolutionary distance $d(P, Q) = b - c$ between arbitrary linear or circular multi-chromosomal genomes.</li>
+        </ul>
+      </div>
+
+      <div style="margin-bottom: 1.25rem;">
+        <span style="font-size: 0.8rem; font-weight: 700; color: var(--text-subtle); text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Representative Rosalind Problems:</span>
+        <div style="display: flex; gap: 0.4rem; flex-wrap: wrap;">
+          <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA6A</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA6B</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA6C</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA6D</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA6E</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA6F</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA6G</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA6H</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA6I</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA6J</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">BA6K</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">REVP</span>
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center; border-top: 1px solid var(--bg-card-border); padding-top: 1rem;">
+        <a href="https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/blob/main/wiki/genome-rearrangements-and-synteny-synthesis.md" target="_blank" rel="noopener noreferrer" class="btn-primary" style="padding: 0.45rem 1rem; font-size: 0.85rem; text-decoration: none;">
+          Read Full Wiki Synthesis &rarr;
+        </a>
+        <a href="mailto:suleyman.hacizade1@gmail.com?subject=Access%20Request%20-%20Synthesis%20genome-rearrangements" class="btn-secondary" style="padding: 0.45rem 0.85rem; font-size: 0.82rem; color: #fca5a5; border-color: rgba(239,68,68,0.3); text-decoration: none;">
+          🔒 Request Code Access
+        </a>
+      </div>
+    </article>
+    
+
+    <article id="population-genetics" class="roadmap-card" style="border-left: 5px solid #eab308; margin-bottom: 2.5rem; padding: 2rem; background: var(--bg-card); border-radius: var(--radius-md); border: 1px solid var(--bg-card-border); border-left-width: 5px;">
+      <div style="font-size: 0.8rem; font-weight: 800; color: #eab308; margin-bottom: 0.5rem; letter-spacing: 0.05em; text-transform: uppercase;">STOCHASTICS & COMBINATORICS</div>
+      <h2 style="font-size: 1.6rem; font-weight: 800; margin-bottom: 0.85rem; color: var(--text-main); line-height: 1.3;">Combinatorics & Population Genetics Synthesis</h2>
+      <p style="font-size: 1rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 1.25rem;">Mendelian inheritance laws, Wright-Fisher Markovian genetic drift, Catalan/Motzkin non-crossing matchings in RNA secondary structure, and Nussinov/Zuker thermodynamic folding models.</p>
+      
+      <div style="background: rgba(0,0,0,0.25); padding: 1.25rem 1.5rem; border-radius: var(--radius-sm); border: 1px solid var(--bg-card-border); margin-bottom: 1.25rem;">
+        <h4 style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-subtle); margin-bottom: 0.75rem;">Theoretical Framework & Paradigms:</h4>
+        <ul style="padding-left: 1.25rem; margin-bottom: 0;">
+          <li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Mendelian Segregation Probabilities</strong>: Exact combinatorial distributions of dominant and recessive alleles under binomial transmission models.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Wright-Fisher Genetic Drift</strong>: Discrete-time absorbing Markov chains modeling allele frequency fluctuations, fixation probability $\pi_i = \frac{i}{2N}$, and geometric decay of heterozygosity.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Catalan RNA Matchings</strong>: Counting perfect non-crossing base-pair configurations ($C_n = \frac{1}{n+1}\binom{2n}{n}$) with dynamic programming recursions modulo $10^6$.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Motzkin RNA Structures</strong>: Enumerating secondary structures with unpaired bases, loops, and bulges.</li><li style="margin-bottom:0.6rem; color:var(--text-main); font-size:0.92rem; line-height:1.5;"><strong>Nussinov Dynamic Programming</strong>: $O(n^3)$ polynomial time algorithm maximizing total Watson-Crick and wobble base pairs in RNA strands.</li>
+        </ul>
+      </div>
+
+      <div style="margin-bottom: 1.25rem;">
+        <span style="font-size: 0.8rem; font-weight: 700; color: var(--text-subtle); text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 0.5rem;">Representative Rosalind Problems:</span>
+        <div style="display: flex; gap: 0.4rem; flex-wrap: wrap;">
+          <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">IPRB</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">MEND</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">WFRP</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">EBFW</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">CAT</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">PMUT</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">MOTZ</span> <span class="problem-id" style="font-size:0.75rem; padding:0.15rem 0.45rem; background:rgba(6,182,212,0.1); color:var(--cyan-primary); border-radius:4px; font-family:var(--font-mono);">MMAT</span>
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center; border-top: 1px solid var(--bg-card-border); padding-top: 1rem;">
+        <a href="https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics/blob/main/wiki/combinatorics-and-population-genetics-synthesis.md" target="_blank" rel="noopener noreferrer" class="btn-primary" style="padding: 0.45rem 1rem; font-size: 0.85rem; text-decoration: none;">
+          Read Full Wiki Synthesis &rarr;
+        </a>
+        <a href="mailto:suleyman.hacizade1@gmail.com?subject=Access%20Request%20-%20Synthesis%20population-genetics" class="btn-secondary" style="padding: 0.45rem 0.85rem; font-size: 0.82rem; color: #fca5a5; border-color: rgba(239,68,68,0.3); text-decoration: none;">
+          🔒 Request Code Access
+        </a>
+      </div>
+    </article>
+    
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div style="display:flex; align-items:center; gap:0.75rem; margin-bottom:0.5rem;">
+            <img src="../assets/logo-icon.svg" alt="Logo" style="width:32px; height:32px; border-radius:6px;" />
+            <span style="font-weight:700; font-size:1.15rem;">SuleimanRosalindBioinformatics</span>
+          </div>
+          <p>
+            An academic-grade, end-to-end implementation of all 284 computational biology problems on the Rosalind platform. Exploring the algorithmic frontier where biology meets computer science.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Directories</h4>
+          <ul>
+            <li><a href="../problems/">All 284 Problems Catalog</a></li>
+            <li><a href="../syntheses/">9 Algorithmic Syntheses</a></li>
+            <li><a href="../curriculum/">3-Tier Curriculum Roadmap</a></li>
+            <li><a href="../domains/">13 Computational Domains</a></li>
+            <li><a href="../studio/">Live Bio-Studio Workbench</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Repositories & Contact</h4>
+          <ul>
+            <li><a href="https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics" target="_blank" rel="noopener noreferrer">Backend Solutions Repo (Private)</a></li>
+            <li><a href="https://github.com/SuleimanRosalindBioinformatics/SuleimanRosalindBioinformatics.github.io" target="_blank" rel="noopener noreferrer">Frontend Website Repo</a></li>
+            <li><a href="https://github.com/SuleimanRosalindBioinformatics" target="_blank" rel="noopener noreferrer">GitHub Organization</a></li>
+            <li><a href="mailto:suleyman.hacizade1@gmail.com?subject=Access%20Request%20-%20SuleimanRosalindBioinformatics" style="color:#fca5a5; font-weight:600;">🔒 Data Access: suleyman.hacizade1@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 <strong>Suleiman Hajizadeh</strong> • Released under the MIT License • Built for Rosalind Bioinformatics • Core Data &amp; Solutions Repo is <strong>Private</strong> (Access via <a href="mailto:suleyman.hacizade1@gmail.com" style="color:var(--cyan-primary);">suleyman.hacizade1@gmail.com</a>)</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

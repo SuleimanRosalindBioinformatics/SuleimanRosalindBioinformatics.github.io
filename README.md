@@ -47,19 +47,34 @@
 
 ---
 
-## 🗂️ Project Structure
+## 🗂️ Project Structure & Architectural SEO Mapping
 
 ```text
 SuleimanRosalindBioinformatics.github.io/
-├── index.html                  # Master responsive single-page web application
-├── manifest.json               # Progressive web app metadata
+├── index.html                  # Master hub with JSON-LD Schema, Open Graph & FAQPage
+├── sitemap.xml                 # Search Engine Sitemap covering all 30 core paths & anchors
+├── robots.txt                  # Global crawler directives (Googlebot, Bingbot, Slurp, etc.)
+├── manifest.json               # Progressive web app metadata with search shortcuts
+├── 404.html                    # SEO-friendly error fallback page with quick navigation
 ├── .nojekyll                   # Bypasses Jekyll processing on GitHub Pages
 ├── favicon.svg                 # Scalable vector tab icon
 ├── favicon.png                 # 64x64 raster favicon
 ├── apple-touch-icon.png        # 180x180 iOS touch icon
-├── assets/                     # Brand assets
+├── problems/
+│   └── index.html              # Dedicated pre-rendered catalog for all 284 solved problems
+├── syntheses/
+│   └── index.html              # Dedicated portal for the 9 cross-cutting domain syntheses
+├── curriculum/
+│   └── index.html              # Dedicated 3-Tier curriculum learning trajectory (51/196/37)
+├── domains/
+│   └── index.html              # Comprehensive reference guide for all 13 biological domains
+├── studio/
+│   └── index.html              # Standalone workbench for live in-browser bio-algorithms
+├── assets/                     # Brand & social preview assets
 │   ├── logo.svg                # Master vector brand logo
-│   └── logo-icon.svg           # High-resolution vector icon
+│   ├── logo-icon.svg           # High-resolution vector icon
+│   ├── logo-emblem.png         # 1024x1024 master emblem (OG & Twitter Image)
+│   └── og-image.png            # Optimized 800x800 social share preview
 ├── css/
 │   └── style.css               # Modern design system, glassmorphism, responsive grid
 ├── js/
